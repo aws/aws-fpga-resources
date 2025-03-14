@@ -1,0 +1,6 @@
+*.v filter=lfs diff=lfs merge=lfs -text
+*.sv filter=lfs diff=lfs merge=lfs -text
+*.vp filter=lfs diff=lfs merge=lfs -text
+*.vhd filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.hwdef filter=lfs diff=lfs merge=lfs -text

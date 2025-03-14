@@ -1,0 +1,297 @@
+
+
+                         Synopsys 1076 VHDL Analyzer
+ 
+
+                Version U-2023.03-1 for linux64 - Apr 22, 2023 
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_0/sim/bd_1535_microblaze_I_0.vhd'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_1/sim/bd_1535_rst_0_0.vhd'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_2/sim/bd_1535_ilmb_0.vhd'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_3/sim/bd_1535_dlmb_0.vhd'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_4/sim/bd_1535_dlmb_cntlr_0.vhd'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_5/sim/bd_1535_ilmb_cntlr_0.vhd'
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:26:37 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_6/sim/bd_1535_lmb_bram_I_0.v'
+CPU time: .204 seconds to compile
+
+
+                         Synopsys 1076 VHDL Analyzer
+ 
+
+                Version U-2023.03-1 for linux64 - Apr 22, 2023 
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_7/sim/bd_1535_second_dlmb_cntlr_0.vhd'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_8/sim/bd_1535_second_ilmb_cntlr_0.vhd'
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:26:39 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_9/sim/bd_1535_second_lmb_bram_I_0.v'
+CPU time: .201 seconds to compile
+
+
+                         Synopsys 1076 VHDL Analyzer
+ 
+
+                Version U-2023.03-1 for linux64 - Apr 22, 2023 
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_10/sim/bd_1535_iomodule_0_0.vhd'
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:26:40 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/sim/bd_1535.v'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_0/sim/cl_ddr4_32g_microblaze_mcs.v'
+CPU time: .206 seconds to compile
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:26:42 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/cl_ddr4_32g_phy_ddr4.sv'
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/map/cl_ddr4_32g_phy_iobMapDDR4.vh'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/cl_ddr4_32g_phy_ddr4.sv'.
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/map/cl_ddr4_32g_phy_riuMap.vh'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/cl_ddr4_32g_phy_ddr4.sv'.
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/map/cl_ddr4_32g_phy_ddrMapDDR4.vh'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/cl_ddr4_32g_phy_ddr4.sv'.
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/map/cl_ddr4_32g_phy_ddrMapDDR4.vh'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/cl_ddr4_32g_phy_ddr4.sv'.
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy_behav.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/iob/ddr4_phy_v2_2_iob_byte.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/iob/ddr4_phy_v2_2_iob.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/clocking/ddr4_phy_v2_2_pll.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_tristate_wrapper.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_riuor_wrapper.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_control_wrapper.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_byte_wrapper.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_bitslice_wrapper.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/ip_top/cl_ddr4_32g_phy.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_wtr.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_ref.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_rd_wr.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_periodic.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_group.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_ecc_merge_enc.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_ecc_gen.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_ecc_fi_xor.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_ecc_dec_fix.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_ecc_buf.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_ecc.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_ctl.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_cmd_mux_c.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_cmd_mux_ap.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_arb_p.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_arb_mux_p.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_arb_c.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_arb_a.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_act_timer.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc_act_rank.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/controller/ddr4_v2_2_mc.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ui/ddr4_v2_2_ui_wr_data.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ui/ddr4_v2_2_ui_rd_data.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ui/ddr4_v2_2_ui_cmd.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ui/ddr4_v2_2_ui.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_ar_channel.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_aw_channel.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_b_channel.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_cmd_arbiter.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_cmd_fsm.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_cmd_translator.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_fifo.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_incr_cmd.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_r_channel.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_w_channel.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_wr_cmd_fsm.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_wrap_cmd.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_a_upsizer.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_register_slice.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axi_upsizer.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_axic_register_slice.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_carry_and.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_carry_latch_and.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_carry_latch_or.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_carry_or.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_command_fifo.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_comparator.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_comparator_sel.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_comparator_sel_static.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_r_upsizer.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi/ddr4_v2_2_w_upsizer.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_addr_decode.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_read.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_reg_bank.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_reg.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_top.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_write.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/clocking/ddr4_v2_2_infrastructure.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_xsdb_bram.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_write.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_wr_byte.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_wr_bit.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_sync.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_read.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_rd_en.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_pi.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_mc_odt.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_debug_microblaze.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_cplx_data.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_cplx.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_config_rom.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_addr_decode.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_top.sv'
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_23_cal_assert.vh'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_top.sv'.
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal_xsdb_arbiter.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_cal.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_chipscope_xsdb_slave.sv'
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_23_cs_ver_inc.vh'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_chipscope_xsdb_slave.sv'.
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_23_chipscope_icon2xsdb_mstrbr_ver_inc.vh'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_chipscope_xsdb_slave.sv'.
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/ddr4_v2_2_dp_AB9.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top/cl_ddr4_32g_ddr4.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top/cl_ddr4_32g_ddr4_mem_intfc.sv'
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top/ddr4_v2_2_23_ddr4_assert.vh'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top/cl_ddr4_32g_ddr4_mem_intfc.sv'.
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal/cl_ddr4_32g_ddr4_cal_riu.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top/cl_ddr4_32g.sv'
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/tb/cl_ddr4_32g_microblaze_mcs_0.sv'
+CPU time: .552 seconds to compile
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:26:43 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'glbl.v'
+CPU time: .207 seconds to compile

@@ -1,0 +1,9 @@
+common_ip/
+post_gen.sh
+.done
+.Xil/
+
+cl_ip/ip_upgrade.log
+**/vivado*.jou
+**/vivado*.log
+**/slurm-*.out

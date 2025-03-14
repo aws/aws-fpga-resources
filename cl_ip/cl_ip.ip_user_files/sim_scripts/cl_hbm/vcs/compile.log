@@ -1,0 +1,174 @@
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:27:05 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv'
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/axi_vip_axi4pc.sv'
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/xil_common_vip_pkg.sv'
+Parsing included file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/include/xil_common_vip_macros.svh'.
+Back to file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/xil_common_vip_pkg.sv'.
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv'
+Parsing included file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/include/xil_common_vip_macros.svh'.
+Back to file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv'.
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/axi_vip_pkg.sv'
+Parsing included file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/include/xil_common_vip_macros.svh'.
+Back to file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/axi_vip_pkg.sv'.
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/axi4stream_vip_if.sv'
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/axi_vip_if.sv'
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/clk_vip_if.sv'
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/xilinx_vip/hdl/rst_vip_if.sv'
+CPU time: .479 seconds to compile
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:27:06 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv'
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv'
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv'
+CPU time: .335 seconds to compile
+
+
+                         Synopsys 1076 VHDL Analyzer
+ 
+
+                Version U-2023.03-1 for linux64 - Apr 22, 2023 
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Parsing design file '/tools/xilinx/Vivado/2024.1/data/ip/xpm/xpm_VCOMP.vhd'
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:27:08 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl/hbm_v1_0_16.sv'
+CPU time: .221 seconds to compile
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:27:09 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../../../ipstatic/hdl/hbm_v1_0_vl_rfs.sv'
+Parsing included file '../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl/defines.vh'.
+Back to file '../../../ipstatic/hdl/hbm_v1_0_vl_rfs.sv'.
+CPU time: .228 seconds to compile
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:27:11 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_hbm/verif/model/hbm_model.sv'
+Parsing included file '../../../ipstatic/verif/model/HBM_vcs.vp'.
+Parsing included file '../../../ipstatic/verif/model/./hbm_parameter.v'.
+Back to file '../../../ipstatic/verif/model/HBM_vcs.vp'.
+Back to file '../../../../cl_ip.gen/sources_1/ip/cl_hbm/verif/model/hbm_model.sv'.
+Parsing design file '../../../../cl_ip.gen/sources_1/ip/cl_hbm/sim/cl_hbm.sv'
+CPU time: .523 seconds to compile
+                         Chronologic VCS (TM)
+        Version U-2023.03-1_Full64 -- Wed Dec 11 22:27:12 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'glbl.v'
+CPU time: .215 seconds to compile
