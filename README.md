@@ -1,11 +1,10 @@
-## My Project
+## AWS FPGA Resources
 
-TODO: Fill this README out!
+This repo is intended to contain, under its various branches, resources required for full functionality of the [`aws-fpga` repo](https://github.com/aws/aws-fpga). This repo is intended to be used as a Git submodule for the `aws-fpga` repo.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+### Branches
+#### `Vivado_<yyyy.xx>-<path>`
+These branches contain resources that are relevant only to the specified AMD Vivado version. `<path>` denotes the intended path in `aws-fpga` repo that this repo is intended to be mounted as a submodule at.
 
 ## Security
 
