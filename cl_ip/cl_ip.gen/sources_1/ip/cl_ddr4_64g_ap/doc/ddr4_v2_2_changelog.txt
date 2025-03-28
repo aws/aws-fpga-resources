@@ -1,3 +1,16 @@
+2024.2:
+ * Version 2.2 (Rev. 24)
+ * General: Updated for 2024.2
+ * Revision change in one or more subcores
+
+2024.1.2:
+ * Version 2.2 (Rev. 23)
+ * No changes
+
+2024.1.1:
+ * Version 2.2 (Rev. 23)
+ * No changes
+
 2024.1:
  * Version 2.2 (Rev. 23)
  * General: IP packaging adjustments to address warnings from IP Packager integrity check

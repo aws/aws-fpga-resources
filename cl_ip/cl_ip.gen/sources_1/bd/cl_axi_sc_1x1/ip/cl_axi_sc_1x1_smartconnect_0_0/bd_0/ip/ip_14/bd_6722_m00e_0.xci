@@ -4,7 +4,7 @@
     "xci_name": "bd_6722_m00e_0",
     "cell_name": "m00_exit_pipeline/m00_exit",
     "component_reference": "xilinx.com:ip:sc_exit:1.0",
-    "ip_revision": "15",
+    "ip_revision": "16",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -337,7 +337,6 @@
         "BASE_BOARD_PART": [ { "value": "" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xcvu47p" } ],
-        "NEXTGEN_VERSAL": [ { "value": "0" } ],
         "PACKAGE": [ { "value": "fsvh2892" } ],
         "PREFHDL": [ { "value": "VERILOG" } ],
         "SILICON_REVISION": [ { "value": "" } ],
@@ -348,12 +347,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "15" } ],
+        "IPREVISION": [ { "value": "16" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../../../../ipshared" } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

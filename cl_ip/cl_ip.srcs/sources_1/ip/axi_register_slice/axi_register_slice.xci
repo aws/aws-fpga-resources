@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "axi_register_slice",
     "component_reference": "xilinx.com:ip:axi_register_slice:2.1",
-    "ip_revision": "31",
+    "ip_revision": "33",
     "gen_directory": "../../../../cl_ip.gen/sources_1/ip/axi_register_slice",
     "parameters": {
       "component_parameters": {
@@ -110,12 +110,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "31" } ],
+        "IPREVISION": [ { "value": "33" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/axi_register_slice" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

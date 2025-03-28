@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "cl_ddr4_microblaze_mcs",
     "component_reference": "xilinx.com:ip:microblaze_mcs:3.0",
-    "ip_revision": "23",
+    "ip_revision": "24",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -108,7 +108,6 @@
         "BASE_BOARD_PART": [ { "value": "" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xcvu47p" } ],
-        "NEXTGEN_VERSAL": [ { "value": "0" } ],
         "PACKAGE": [ { "value": "fsvh2892" } ],
         "PREFHDL": [ { "value": "VERILOG" } ],
         "SILICON_REVISION": [ { "value": "" } ],
@@ -119,12 +118,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "23" } ],
+        "IPREVISION": [ { "value": "24" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

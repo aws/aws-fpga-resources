@@ -1,3 +1,16 @@
+2024.2:
+ * Version 2.1 (Rev. 33)
+ * General: removed TLM model sources from the IP
+ * Revision change in one or more subcores
+
+2024.1.2:
+ * Version 2.1 (Rev. 32)
+ * No changes
+
+2024.1.1:
+ * Version 2.1 (Rev. 32)
+ * Revision change in one or more subcores
+
 2024.1:
  * Version 2.1 (Rev. 31)
  * General: IP packaging adjustments to address warnings from IP Packager integrity check

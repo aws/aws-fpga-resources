@@ -7,7 +7,7 @@
       "name": "cl_axi_sc_2x2",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "None",
-      "tool_version": "2024.1",
+      "tool_version": "2024.2",
       "validated": "true"
     },
     "design_tree": {
@@ -114,9 +114,6 @@
           },
           "WUSER_WIDTH": {
             "value": "0"
-          },
-          "master_id": {
-            "value": "1"
           }
         },
         "address_space_ref": "ATG",
@@ -1022,9 +1019,6 @@
           },
           "WUSER_WIDTH": {
             "value": "0"
-          },
-          "master_id": {
-            "value": "2"
           }
         },
         "address_space_ref": "XDMA",
@@ -1285,7 +1279,7 @@
     "components": {
       "smartconnect_0": {
         "vlnv": "xilinx.com:ip:smartconnect:1.0",
-        "ip_revision": "23",
+        "ip_revision": "25",
         "xci_name": "cl_axi_sc_2x2_smartconnect_0_0",
         "xci_path": "ip/cl_axi_sc_2x2_smartconnect_0_0/cl_axi_sc_2x2_smartconnect_0_0.xci",
         "inst_hier_path": "smartconnect_0",

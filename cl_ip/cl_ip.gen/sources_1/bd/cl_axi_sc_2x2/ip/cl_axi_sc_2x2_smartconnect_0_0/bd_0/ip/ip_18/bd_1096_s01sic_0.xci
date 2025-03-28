@@ -2,9 +2,9 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "bd_1096_s01sic_0",
-    "cell_name": "s01_entry_pipeline/s01_si_converter",
+    "cell_name": "s01_si_converter",
     "component_reference": "xilinx.com:ip:sc_si_converter:1.0",
-    "ip_revision": "13",
+    "ip_revision": "14",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -1358,7 +1358,6 @@
         "BASE_BOARD_PART": [ { "value": "" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xcvu47p" } ],
-        "NEXTGEN_VERSAL": [ { "value": "0" } ],
         "PACKAGE": [ { "value": "fsvh2892" } ],
         "PREFHDL": [ { "value": "VERILOG" } ],
         "SILICON_REVISION": [ { "value": "" } ],
@@ -1369,12 +1368,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "13" } ],
+        "IPREVISION": [ { "value": "14" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../../../../ipshared" } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },
@@ -1646,7 +1645,7 @@
           "parameters": {
             "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant_prop", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ],
-            "TYPE": [ { "value": "INTERCONNECT", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ]
+            "TYPE": [ { "value": "INTERCONNECT", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ]
           },
           "port_maps": {
             "RST": [ { "physical_name": "aresetn" } ]

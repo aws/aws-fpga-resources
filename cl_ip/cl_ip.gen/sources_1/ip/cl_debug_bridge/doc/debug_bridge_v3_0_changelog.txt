@@ -1,3 +1,16 @@
+2024.2:
+ * Version 3.0 (Rev. 13)
+ * General: IP port.xit updated for packager integrity check
+ * Revision change in one or more subcores
+
+2024.1.2:
+ * Version 3.0 (Rev. 12)
+ * No changes
+
+2024.1.1:
+ * Version 3.0 (Rev. 12)
+ * No changes
+
 2024.1:
  * Version 3.0 (Rev. 12)
  * General: Rebranding from xilinx logo to AMD logo

@@ -1,7 +1,7 @@
 onbreak {quit -f}
 onerror {quit -f}
 
-vsim -voptargs="+acc"  -L xilinx_vip -L xpm -L xsdbm_v3_0_2 -L xil_defaultlib -L lut_buffer_v2_0_1 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -lib xil_defaultlib xil_defaultlib.cl_debug_bridge xil_defaultlib.glbl
+vsim -voptargs="+acc"  -L xil_defaultlib -L xilinx_vip -L xpm -L xsdbm_v3_0_3 -L lut_buffer_v2_0_1 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -lib xil_defaultlib xil_defaultlib.cl_debug_bridge xil_defaultlib.glbl
 
 set NumericStdNoWarnings 1
 set StdArithNoWarnings 1

@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "cl_debug_bridge",
     "component_reference": "xilinx.com:ip:debug_bridge:3.0",
-    "ip_revision": "12",
+    "ip_revision": "13",
     "gen_directory": "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge",
     "parameters": {
       "component_parameters": {
@@ -66,12 +66,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "12" } ],
+        "IPREVISION": [ { "value": "13" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

@@ -4,7 +4,7 @@
     "xci_name": "bd_2e02_microblaze_I_0",
     "cell_name": "microblaze_I",
     "component_reference": "xilinx.com:ip:microblaze:11.0",
-    "ip_revision": "13",
+    "ip_revision": "14",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -80,7 +80,7 @@
         "C_PVR_USER2": [ { "value": "0x00000000", "resolve_type": "user", "format": "bitString", "enabled": false, "usage": "all" } ],
         "C_DEBUG_ENABLED": [ { "value": "0", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_DEBUG_INTERFACE": [ { "value": "0", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
-        "C_NUMBER_OF_PC_BRK": [ { "value": "1", "value_src": "user", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
+        "C_NUMBER_OF_PC_BRK": [ { "value": "1", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
         "C_NUMBER_OF_RD_ADDR_BRK": [ { "value": "0", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
         "C_NUMBER_OF_WR_ADDR_BRK": [ { "value": "0", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
         "C_DEBUG_EVENT_COUNTERS": [ { "value": "5", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
@@ -400,7 +400,6 @@
         "BASE_BOARD_PART": [ { "value": "" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xcvu47p" } ],
-        "NEXTGEN_VERSAL": [ { "value": "0" } ],
         "PACKAGE": [ { "value": "fsvh2892" } ],
         "PREFHDL": [ { "value": "VERILOG" } ],
         "SILICON_REVISION": [ { "value": "" } ],
@@ -411,12 +410,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "13" } ],
+        "IPREVISION": [ { "value": "14" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

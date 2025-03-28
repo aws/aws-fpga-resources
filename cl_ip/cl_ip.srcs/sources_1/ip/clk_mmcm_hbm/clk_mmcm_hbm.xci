@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "clk_mmcm_hbm",
     "component_reference": "xilinx.com:ip:clk_wiz:6.0",
-    "ip_revision": "14",
+    "ip_revision": "15",
     "gen_directory": "../../../../cl_ip.gen/sources_1/ip/clk_mmcm_hbm",
     "parameters": {
       "component_parameters": {
@@ -598,12 +598,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "14" } ],
+        "IPREVISION": [ { "value": "15" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/clk_mmcm_hbm" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

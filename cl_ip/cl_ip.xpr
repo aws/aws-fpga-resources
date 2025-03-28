@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2024.1 (64-bit)                              -->
+<!-- Product Version: Vivado v2024.2 (64-bit)                              -->
 <!--                                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="67" Path="$AWS_FPGA_REPO_DIR/hdk/common/ip/cl_ip/cl_ip.xpr">
+<Project Product="Vivado" Version="7" Minor="68" Path="$AWS_FPGA_REPO_DIR/hdk/common/ip/cl_ip/cl_ip.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="86f783609b614aa9ba5918af693b6872"/>
@@ -29,12 +29,12 @@
     <Option Name="SimulatorGccInstallDirVCS" Val=""/>
     <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
     <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
-    <Option Name="SimulatorVersionXsim" Val="2024.1"/>
-    <Option Name="SimulatorVersionModelSim" Val="2023.2"/>
-    <Option Name="SimulatorVersionQuesta" Val="2023.2"/>
-    <Option Name="SimulatorVersionXcelium" Val="23.03.002"/>
-    <Option Name="SimulatorVersionVCS" Val="U-2023.03-1"/>
-    <Option Name="SimulatorVersionRiviera" Val="2023.04"/>
+    <Option Name="SimulatorVersionXsim" Val="2024.2"/>
+    <Option Name="SimulatorVersionModelSim" Val="2024.1"/>
+    <Option Name="SimulatorVersionQuesta" Val="2024.1"/>
+    <Option Name="SimulatorVersionXcelium" Val="24.03.003"/>
+    <Option Name="SimulatorVersionVCS" Val="V-2023.12-SP1"/>
+    <Option Name="SimulatorVersionRiviera" Val="2024.04"/>
     <Option Name="SimulatorVersionActiveHdl" Val="12.0"/>
     <Option Name="SimulatorGccVersionXsim" Val="9.3.0"/>
     <Option Name="SimulatorGccVersionModelSim" Val="7.4.0"/>
@@ -45,8 +45,6 @@
     <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
     <Option Name="TargetSimulator" Val="VCS"/>
     <Option Name="BoardPart" Val=""/>
-    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/."/>
-    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/."/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
@@ -67,12 +65,12 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="289"/>
-    <Option Name="WTModelSimExportSim" Val="289"/>
-    <Option Name="WTQuestaExportSim" Val="289"/>
+    <Option Name="WTXSimExportSim" Val="333"/>
+    <Option Name="WTModelSimExportSim" Val="333"/>
+    <Option Name="WTQuestaExportSim" Val="333"/>
     <Option Name="WTIesExportSim" Val="0"/>
-    <Option Name="WTVcsExportSim" Val="289"/>
-    <Option Name="WTRivieraExportSim" Val="289"/>
+    <Option Name="WTVcsExportSim" Val="333"/>
+    <Option Name="WTRivieraExportSim" Val="333"/>
     <Option Name="WTActivehdlExportSim" Val="289"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
@@ -85,14 +83,24 @@
     <Option Name="SimTypes" Val="tlm_dpi"/>
     <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
     <Option Name="DcpsUptoDate" Val="TRUE"/>
-    <Option Name="ClassicSocBoot" Val="FALSE"/>
+    <Option Name="UseInlineHdlIP" Val="TRUE"/>
     <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
   </Configuration>
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/ip/axi_clock_converter_0/axi_clock_converter_0.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/sources_1/ip/axi_clock_converter_0/axi_clock_converter_0.xci"/>
+          <Attr Name="ImportTime" Val="1662069830"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/bd/cl_axi_sc_1x1/cl_axi_sc_1x1.bd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -100,6 +108,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/hdl/cl_axi_sc_1x1_wrapper.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PGENDIR/sources_1/bd/cl_axi_sc_1x1/hdl/cl_axi_sc_1x1_wrapper.v"/>
           <Attr Name="ImportTime" Val="1721317396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -112,16 +121,6 @@
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/sources_1/ip/cl_ddr4/cl_ddr4.xci"/>
           <Attr Name="ImportTime" Val="1680808588"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/axi_clock_converter_0/axi_clock_converter_0.xci">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/sources_1/ip/axi_clock_converter_0/axi_clock_converter_0.xci"/>
-          <Attr Name="ImportTime" Val="1662069830"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -453,8 +452,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="cl_axi_sc_1x1_wrapper"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TopModule" Val="axi_clock_converter_0"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -478,6 +476,9 @@
         <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
         <Option Name="PamPseudoTop" Val="pseudo_tb"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
       </Config>
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
@@ -545,7 +546,7 @@
     <MsgAttr Name="ShowRule" Val="1"/>
     <MsgAttr Name="RuleSource" Val="2"/>
     <MsgAttr Name="StringIsRegExp" Val="0"/>
-    <MsgAttr Name="RuleId" Val="11"/>
+    <MsgAttr Name="RuleId" Val="7"/>
     <MsgAttr Name="Note" Val=""/>
     <MsgAttr Name="Author" Val=""/>
     <MsgAttr Name="CreatedTimestamp" Val=""/>
@@ -559,7 +560,7 @@
     <MsgAttr Name="ShowRule" Val="1"/>
     <MsgAttr Name="RuleSource" Val="2"/>
     <MsgAttr Name="StringIsRegExp" Val="0"/>
-    <MsgAttr Name="RuleId" Val="12"/>
+    <MsgAttr Name="RuleId" Val="8"/>
     <MsgAttr Name="Note" Val=""/>
     <MsgAttr Name="Author" Val=""/>
     <MsgAttr Name="CreatedTimestamp" Val=""/>

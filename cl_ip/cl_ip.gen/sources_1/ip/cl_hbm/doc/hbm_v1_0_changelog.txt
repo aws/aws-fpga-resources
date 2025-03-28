@@ -1,3 +1,15 @@
+2024.2:
+ * Version 1.0 (Rev. 16)
+ * No changes
+
+2024.1.2:
+ * Version 1.0 (Rev. 16)
+ * No changes
+
+2024.1.1:
+ * Version 1.0 (Rev. 16)
+ * No changes
+
 2024.1:
  * Version 1.0 (Rev. 16)
  * General: IP packaging adjustments to address warnings from IP Packager integrity check

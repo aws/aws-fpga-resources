@@ -1,7 +1,4 @@
 verilog xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" \
-"../../../ipstatic/simulation/blk_mem_gen_v8_4.v" \
-
-verilog xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_6/sim/bd_c5ad_lmb_bram_I_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_9/sim/bd_c5ad_second_lmb_bram_I_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/sim/bd_c5ad.v" \

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jul 18 10:53:43 2024" VIVADOVERSION="2024.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jan 23 10:50:41 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="virtexuplusHBM" DEVICE="xcvu47p" NAME="bd_a493" PACKAGE="fsvh2892" SPEEDGRADE="-2"/>
 
@@ -14,7 +14,7 @@
         <CONNECTION INSTANCE="lut_buffer" PORT="capture_i"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="S_BSCAN_drck" SIGIS="clk" SIGNAME="lut_buffer_drck_i">
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="S_BSCAN_drck" SIGIS="clk" SIGNAME="lut_buffer_drck_i">
       <CONNECTIONS>
         <CONNECTION INSTANCE="lut_buffer" PORT="drck_i"/>
       </CONNECTIONS>
@@ -39,7 +39,7 @@
         <CONNECTION INSTANCE="lut_buffer" PORT="shift_i"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="S_BSCAN_tck" SIGIS="clk" SIGNAME="lut_buffer_tck_i">
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="S_BSCAN_tck" SIGIS="clk" SIGNAME="lut_buffer_tck_i">
       <CONNECTIONS>
         <CONNECTION INSTANCE="lut_buffer" PORT="tck_i"/>
       </CONNECTIONS>
@@ -59,7 +59,7 @@
         <CONNECTION INSTANCE="lut_buffer" PORT="tms_i"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="S_BSCAN_update" SIGIS="clk" SIGNAME="lut_buffer_update_i">
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="S_BSCAN_update" SIGIS="clk" SIGNAME="lut_buffer_update_i">
       <CONNECTIONS>
         <CONNECTION INSTANCE="lut_buffer" PORT="update_i"/>
       </CONNECTIONS>
@@ -255,7 +255,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="2" FULLNAME="/xsdbm" HWVERSION="3.0" INSTANCE="xsdbm" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xsdbm" VLNV="xilinx.com:ip:xsdbm:3.0">
+    <MODULE COREREVISION="3" FULLNAME="/xsdbm" HWVERSION="3.0" INSTANCE="xsdbm" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xsdbm" VLNV="xilinx.com:ip:xsdbm:3.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="C_BSCANID" VALUE="76546592"/>

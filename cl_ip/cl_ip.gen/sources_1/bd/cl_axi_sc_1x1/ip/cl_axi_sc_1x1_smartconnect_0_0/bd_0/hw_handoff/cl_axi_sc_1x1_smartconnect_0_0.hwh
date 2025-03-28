@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jul 18 12:03:47 2024" VIVADOVERSION="2024.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jan 23 11:33:41 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="virtexuplusHBM" DEVICE="xcvu47p" NAME="bd_6722" PACKAGE="fsvh2892" SPEEDGRADE="-2"/>
 
@@ -553,7 +553,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/clk_map/psr0" HWVERSION="5.0" INSTANCE="clk_map_psr0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
+    <MODULE COREREVISION="16" FULLNAME="/clk_map/psr0" HWVERSION="5.0" INSTANCE="clk_map_psr0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
       </DOCUMENTS>
@@ -603,7 +603,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/clk_map/psr_aclk" HWVERSION="5.0" INSTANCE="clk_map_psr_aclk" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
+    <MODULE COREREVISION="16" FULLNAME="/clk_map/psr_aclk" HWVERSION="5.0" INSTANCE="clk_map_psr_aclk" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
       </DOCUMENTS>
@@ -659,7 +659,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/clk_map/psr_aclk1" HWVERSION="5.0" INSTANCE="clk_map_psr_aclk1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
+    <MODULE COREREVISION="16" FULLNAME="/clk_map/psr_aclk1" HWVERSION="5.0" INSTANCE="clk_map_psr_aclk1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
       </DOCUMENTS>
@@ -713,7 +713,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/m00_exit_pipeline/m00_exit" HWVERSION="1.0" INSTANCE="m00_exit_pipeline_m00_exit" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_exit" VLNV="xilinx.com:ip:sc_exit:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/m00_exit_pipeline/m00_exit" HWVERSION="1.0" INSTANCE="m00_exit_pipeline_m00_exit" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_exit" VLNV="xilinx.com:ip:sc_exit:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -2526,7 +2526,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="13" FULLNAME="/s00_entry_pipeline/s00_mmu" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_mmu" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_mmu" VLNV="xilinx.com:ip:sc_mmu:1.0">
+    <MODULE COREREVISION="14" FULLNAME="/s00_entry_pipeline/s00_mmu" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_mmu" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_mmu" VLNV="xilinx.com:ip:sc_mmu:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -5200,7 +5200,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="13" FULLNAME="/s00_entry_pipeline/s00_si_converter" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_si_converter" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_si_converter" VLNV="xilinx.com:ip:sc_si_converter:1.0">
+    <MODULE COREREVISION="14" FULLNAME="/s00_entry_pipeline/s00_si_converter" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_si_converter" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_si_converter" VLNV="xilinx.com:ip:sc_si_converter:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -7730,7 +7730,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="16" FULLNAME="/s00_nodes/s00_ar_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="17" FULLNAME="/s00_nodes/s00_ar_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -7933,7 +7933,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="16" FULLNAME="/s00_nodes/s00_aw_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_aw_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="17" FULLNAME="/s00_nodes/s00_aw_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_aw_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -8136,7 +8136,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="16" FULLNAME="/s00_nodes/s00_b_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="17" FULLNAME="/s00_nodes/s00_b_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -8339,7 +8339,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="16" FULLNAME="/s00_nodes/s00_r_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="17" FULLNAME="/s00_nodes/s00_r_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -8542,7 +8542,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="16" FULLNAME="/s00_nodes/s00_w_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_w_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="17" FULLNAME="/s00_nodes/s00_w_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_w_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>

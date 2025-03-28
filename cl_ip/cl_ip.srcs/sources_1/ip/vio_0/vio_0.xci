@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "vio_0",
     "component_reference": "xilinx.com:ip:vio:3.0",
-    "ip_revision": "25",
+    "ip_revision": "26",
     "gen_directory": "../../../../cl_ip.gen/sources_1/ip/vio_0",
     "parameters": {
       "component_parameters": {
@@ -1589,12 +1589,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "25" } ],
+        "IPREVISION": [ { "value": "26" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/vio_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.1" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

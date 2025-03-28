@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jul 18 12:04:55 2024" VIVADOVERSION="2024.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jan 23 11:35:26 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="virtexuplusHBM" DEVICE="xcvu47p" NAME="cl_axi_sc_2x2" PACKAGE="fsvh2892" SPEEDGRADE="-2"/>
 
@@ -1010,7 +1010,7 @@
   </EXTERNALINTERFACES>
 
   <MODULES>
-    <MODULE BD="cl_axi_sc_2x2_smartconnect_0_0" BDTYPE="SBD" COREREVISION="23" DRIVERMODE="CORE" FULLNAME="/smartconnect_0" HWVERSION="1.0" INSTANCE="smartconnect_0" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="cl_axi_sc_2x2_smartconnect_0_0" VLNV="xilinx.com:ip:smartconnect:1.0">
+    <MODULE BD="cl_axi_sc_2x2_smartconnect_0_0" BDTYPE="SBD" COREREVISION="25" DRIVERMODE="CORE" FULLNAME="/smartconnect_0" HWVERSION="1.0" INSTANCE="smartconnect_0" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="cl_axi_sc_2x2_smartconnect_0_0" VLNV="xilinx.com:ip:smartconnect:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>

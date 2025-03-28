@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Oct  9 09:54:27 2024" VIVADOVERSION="2024.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jan 23 10:43:37 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="virtexuplusHBM" DEVICE="xcvu47p" NAME="bd_c5ad" PACKAGE="fsvh2892" SPEEDGRADE="-2"/>
 
@@ -544,7 +544,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="24" FULLNAME="/dlmb_cntlr" HWVERSION="4.0" INSTANCE="dlmb_cntlr" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY_CNTLR" MODTYPE="lmb_bram_if_cntlr" VLNV="xilinx.com:ip:lmb_bram_if_cntlr:4.0">
+    <MODULE COREREVISION="25" FULLNAME="/dlmb_cntlr" HWVERSION="4.0" INSTANCE="dlmb_cntlr" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY_CNTLR" MODTYPE="lmb_bram_if_cntlr" VLNV="xilinx.com:ip:lmb_bram_if_cntlr:4.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=lmb_bram_if_cntlr;v=v4_0;d=pg112-lmb-bram-if-cntlr.pdf"/>
       </DOCUMENTS>
@@ -939,7 +939,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="24" FULLNAME="/ilmb_cntlr" HWVERSION="4.0" INSTANCE="ilmb_cntlr" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY_CNTLR" MODTYPE="lmb_bram_if_cntlr" VLNV="xilinx.com:ip:lmb_bram_if_cntlr:4.0">
+    <MODULE COREREVISION="25" FULLNAME="/ilmb_cntlr" HWVERSION="4.0" INSTANCE="ilmb_cntlr" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY_CNTLR" MODTYPE="lmb_bram_if_cntlr" VLNV="xilinx.com:ip:lmb_bram_if_cntlr:4.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=lmb_bram_if_cntlr;v=v4_0;d=pg112-lmb-bram-if-cntlr.pdf"/>
       </DOCUMENTS>
@@ -1121,7 +1121,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="10" FULLNAME="/iomodule_0" HWVERSION="3.1" INSTANCE="iomodule_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="iomodule" VLNV="xilinx.com:ip:iomodule:3.1">
+    <MODULE COREREVISION="11" FULLNAME="/iomodule_0" HWVERSION="3.1" INSTANCE="iomodule_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="iomodule" VLNV="xilinx.com:ip:iomodule:3.1">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=iomodule;v=v3_1;d=pg111-iomodule.pdf"/>
       </DOCUMENTS>
@@ -3733,7 +3733,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="8" FULLNAME="/lmb_bram_I" HWVERSION="8.4" INSTANCE="lmb_bram_I" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.4">
+    <MODULE COREREVISION="9" FULLNAME="/lmb_bram_I" HWVERSION="8.4" INSTANCE="lmb_bram_I" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.4">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=blk_mem_gen;v=v8_4;d=pg058-blk-mem-gen.pdf"/>
       </DOCUMENTS>
@@ -4000,7 +4000,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="13" FULLNAME="/microblaze_I" HWVERSION="11.0" INSTANCE="microblaze_I" IPTYPE="PROCESSOR" IS_ENABLE="1" MODCLASS="PROCESSOR" MODTYPE="microblaze" PROCTYPE="microblaze" VLNV="xilinx.com:ip:microblaze:11.0">
+    <MODULE COREREVISION="14" FULLNAME="/microblaze_I" HWVERSION="11.0" INSTANCE="microblaze_I" IPTYPE="PROCESSOR" IS_ENABLE="1" MODCLASS="PROCESSOR" MODTYPE="microblaze" PROCTYPE="microblaze" VLNV="xilinx.com:ip:microblaze:11.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/rdoc?v=latest;d=ug984-vivado-microblaze-ref.pdf"/>
       </DOCUMENTS>
@@ -4588,7 +4588,7 @@
         <PERIPHERAL INSTANCE="iomodule_0"/>
       </PERIPHERALS>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/rst_0" HWVERSION="5.0" INSTANCE="rst_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
+    <MODULE COREREVISION="16" FULLNAME="/rst_0" HWVERSION="5.0" INSTANCE="rst_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
       </DOCUMENTS>
@@ -4646,7 +4646,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="24" FULLNAME="/second_dlmb_cntlr" HWVERSION="4.0" INSTANCE="second_dlmb_cntlr" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY_CNTLR" MODTYPE="lmb_bram_if_cntlr" VLNV="xilinx.com:ip:lmb_bram_if_cntlr:4.0">
+    <MODULE COREREVISION="25" FULLNAME="/second_dlmb_cntlr" HWVERSION="4.0" INSTANCE="second_dlmb_cntlr" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY_CNTLR" MODTYPE="lmb_bram_if_cntlr" VLNV="xilinx.com:ip:lmb_bram_if_cntlr:4.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=lmb_bram_if_cntlr;v=v4_0;d=pg112-lmb-bram-if-cntlr.pdf"/>
       </DOCUMENTS>
@@ -4831,7 +4831,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="24" FULLNAME="/second_ilmb_cntlr" HWVERSION="4.0" INSTANCE="second_ilmb_cntlr" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY_CNTLR" MODTYPE="lmb_bram_if_cntlr" VLNV="xilinx.com:ip:lmb_bram_if_cntlr:4.0">
+    <MODULE COREREVISION="25" FULLNAME="/second_ilmb_cntlr" HWVERSION="4.0" INSTANCE="second_ilmb_cntlr" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY_CNTLR" MODTYPE="lmb_bram_if_cntlr" VLNV="xilinx.com:ip:lmb_bram_if_cntlr:4.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=lmb_bram_if_cntlr;v=v4_0;d=pg112-lmb-bram-if-cntlr.pdf"/>
       </DOCUMENTS>
@@ -5013,7 +5013,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="8" FULLNAME="/second_lmb_bram_I" HWVERSION="8.4" INSTANCE="second_lmb_bram_I" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.4">
+    <MODULE COREREVISION="9" FULLNAME="/second_lmb_bram_I" HWVERSION="8.4" INSTANCE="second_lmb_bram_I" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="MEMORY" MODTYPE="blk_mem_gen" VLNV="xilinx.com:ip:blk_mem_gen:8.4">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=blk_mem_gen;v=v8_4;d=pg058-blk-mem-gen.pdf"/>
       </DOCUMENTS>
