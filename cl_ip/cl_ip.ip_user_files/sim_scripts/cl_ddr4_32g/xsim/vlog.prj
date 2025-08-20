@@ -1,10 +1,10 @@
-verilog xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal" \
+verilog xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_6/sim/bd_1535_lmb_bram_I_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/ip/ip_9/sim/bd_1535_second_lmb_bram_I_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/bd_0/sim/bd_1535.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_0/sim/cl_ddr4_32g_microblaze_mcs.v" \
 
-sv xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal" \
+sv xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/rtl/cal" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/cl_ddr4_32g_phy_ddr4.sv" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy_behav.sv" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy.sv" \

@@ -4,7 +4,7 @@
     "xci_name": "bd_1096_s01mmu_0",
     "cell_name": "s01_mmu",
     "component_reference": "xilinx.com:ip:sc_mmu:1.0",
-    "ip_revision": "14",
+    "ip_revision": "15",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -2134,12 +2134,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "14" } ],
+        "IPREVISION": [ { "value": "15" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../../../../ipshared" } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

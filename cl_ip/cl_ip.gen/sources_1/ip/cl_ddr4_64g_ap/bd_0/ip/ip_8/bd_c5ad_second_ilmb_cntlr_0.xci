@@ -4,7 +4,7 @@
     "xci_name": "bd_c5ad_second_ilmb_cntlr_0",
     "cell_name": "second_ilmb_cntlr",
     "component_reference": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-    "ip_revision": "25",
+    "ip_revision": "26",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -85,12 +85,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "25" } ],
+        "IPREVISION": [ { "value": "26" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },
@@ -154,7 +154,7 @@
             "MEM_ECC": [ { "value": "NONE", "value_src": "propagated", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "READ_WRITE_MODE": [ { "value": "", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "READ_LATENCY": [ { "value": "1", "value_permission": "bd", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
-            "MEM_ADDRESS_MODE": [ { "value": "", "value_src": "weak", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ]
+            "MEM_ADDRESS_MODE": [ { "value": "", "value_src": "weak", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ]
           },
           "port_maps": {
             "ADDR": [ { "physical_name": "BRAM_Addr_A" } ],

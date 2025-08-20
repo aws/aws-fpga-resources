@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "cl_axi_interconnect",
     "component_reference": "xilinx.com:ip:axi_crossbar:2.1",
-    "ip_revision": "34",
+    "ip_revision": "37",
     "gen_directory": "../../../../cl_ip.gen/sources_1/ip/cl_axi_interconnect",
     "parameters": {
       "component_parameters": {
@@ -1255,12 +1255,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "34" } ],
+        "IPREVISION": [ { "value": "37" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/cl_axi_interconnect" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

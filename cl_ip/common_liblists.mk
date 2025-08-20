@@ -8,22 +8,22 @@ COMMON_LIBLISTS =\
    secureip\
    xpm\
    xil_defaultlib\
-   axi_dwidth_converter_v2_1_33\
-   axi_protocol_converter_v2_1_33\
-   axi_protocol_checker_v2_0_19\
+   axi_dwidth_converter_v2_1_36\
+   axi_protocol_converter_v2_1_36\
+   axi_protocol_checker_v2_0_21\
    noc_hbm_v1_0_1\
-   hbm_v1_0_16\
-   axi_register_slice_v2_1_33\
+   hbm_v1_0_17\
+   axi_register_slice_v2_1_35\
    axi_infrastructure_v1_1_0\
    axis_infrastructure_v1_1_1\
-   axi_crossbar_v2_1_34\
-   axi_clock_converter_v2_1_32\
-   fifo_generator_v13_0_7\
-   fifo_generator_v13_2_11\
-   axi_data_fifo_v2_1_32\
+   axi_crossbar_v2_1_37\
+   axi_clock_converter_v2_1_34\
+   fifo_generator_v13_2_13\
+   axi_data_fifo_v2_1_35\
    generic_baseblocks_v2_1_2\
+   proc_sys_reset_v5_0_17\
    lut_buffer_v2_0_1\
-   xsdbm_v3_0_3\
-   xdma_v4_1_31\
-   xlconstant_v1_1_9\
+   xsdbm_v3_0_4\
+   xdma_v4_2_0\
+   xlconstant_v1_1_10\
    smartconnect_v1_0

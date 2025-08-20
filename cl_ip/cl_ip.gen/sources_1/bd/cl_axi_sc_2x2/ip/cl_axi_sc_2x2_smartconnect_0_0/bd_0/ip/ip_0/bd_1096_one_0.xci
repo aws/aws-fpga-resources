@@ -4,7 +4,7 @@
     "xci_name": "bd_1096_one_0",
     "cell_name": "clk_map/one",
     "component_reference": "xilinx.com:ip:xlconstant:1.1",
-    "ip_revision": "9",
+    "ip_revision": "10",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -31,12 +31,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "9" } ],
+        "IPREVISION": [ { "value": "10" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../../../../ipshared" } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

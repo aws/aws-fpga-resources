@@ -1,7 +1,7 @@
-verilog xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/f0b6/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/0127/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/ec67/hdl" \
+verilog xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/f0b6/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/a8e4/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/ec67/hdl" \
 "../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_1096_one_0.v" \
 
-sv xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/f0b6/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/0127/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/ec67/hdl" \
+sv xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/f0b6/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/a8e4/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/ec67/hdl" \
 "../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_1096_arsw_0.sv" \
 "../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_1096_rsw_0.sv" \
 "../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_1096_awsw_0.sv" \
@@ -40,9 +40,13 @@ sv xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "
 "../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/bd_0/ip/ip_37/sim/bd_1096_m01bn_0.sv" \
 "../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/bd_0/ip/ip_38/sim/bd_1096_m01e_0.sv" \
 
-verilog xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/f0b6/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/0127/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/ec67/hdl" \
+verilog xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/f0b6/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/a8e4/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/ec67/hdl" \
 "../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/bd_0/sim/bd_1096.v" \
-"../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/sim/cl_axi_sc_2x2_smartconnect_0_0.v" \
+
+sv xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/f0b6/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/a8e4/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/ec67/hdl" \
+"../../../bd/cl_axi_sc_2x2/ip/cl_axi_sc_2x2_smartconnect_0_0/sim/cl_axi_sc_2x2_smartconnect_0_0.sv" \
+
+verilog xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/f0b6/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/a8e4/hdl/verilog" --include "../../../../cl_ip.gen/sources_1/bd/cl_axi_sc_2x2/ipshared/ec67/hdl" \
 "../../../bd/cl_axi_sc_2x2/sim/cl_axi_sc_2x2.v" \
 
 verilog xil_defaultlib "glbl.v"

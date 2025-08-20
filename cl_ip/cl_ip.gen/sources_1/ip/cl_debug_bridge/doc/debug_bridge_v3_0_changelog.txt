@@ -1,3 +1,16 @@
+2025.1:
+ * Version 3.0 (Rev. 14)
+ * General: Updated IP Catalog taxonomy structure. This change has no impact to the IP.
+ * Revision change in one or more subcores
+
+2024.2.2:
+ * Version 3.0 (Rev. 13)
+ * No changes
+
+2024.2.1:
+ * Version 3.0 (Rev. 13)
+ * No changes
+
 2024.2:
  * Version 3.0 (Rev. 13)
  * General: IP port.xit updated for packager integrity check
@@ -192,7 +205,7 @@
  * Version 1.0
  * Native Vivado Release
 
-(c) Copyright 2015 - 2024 Advanced Micro Devices, Inc. All rights reserved.
+(c) Copyright 2015 - 2025 Advanced Micro Devices, Inc. All rights reserved.
 
 This file contains confidential and proprietary information
 of AMD and is protected under U.S. and international copyright

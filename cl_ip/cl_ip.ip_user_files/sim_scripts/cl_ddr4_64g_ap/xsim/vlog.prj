@@ -1,10 +1,10 @@
-verilog xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" \
+verilog xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_6/sim/bd_c5ad_lmb_bram_I_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_9/sim/bd_c5ad_second_lmb_bram_I_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/sim/bd_c5ad.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_0/sim/cl_ddr4_64g_ap_microblaze_mcs.v" \
 
-sv xil_defaultlib --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" \
+sv xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" --include "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/phy/cl_ddr4_64g_ap_phy_ddr4.sv" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy_behav.sv" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy.sv" \

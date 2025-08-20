@@ -53,5 +53,5 @@
 #set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.1
 
 
-set_false_path -to [get_cells  -hier {*seq_reg*[0]} -filter {is_sequential}]
+set_false_path -to [get_cells  -hier {*seq_reg*[*]} -filter {is_sequential}]
 set_property PHASESHIFT_MODE LATENCY [get_cells -hierarchical *adv*]

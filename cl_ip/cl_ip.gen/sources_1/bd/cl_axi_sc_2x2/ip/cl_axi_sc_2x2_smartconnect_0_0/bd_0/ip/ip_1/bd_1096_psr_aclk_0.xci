@@ -4,7 +4,7 @@
     "xci_name": "bd_1096_psr_aclk_0",
     "cell_name": "clk_map/psr_aclk",
     "component_reference": "xilinx.com:ip:proc_sys_reset:5.0",
-    "ip_revision": "16",
+    "ip_revision": "17",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -46,12 +46,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "16" } ],
+        "IPREVISION": [ { "value": "17" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../../../../ipshared" } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },
