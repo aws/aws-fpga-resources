@@ -4,7 +4,7 @@
     "xci_name": "bd_a493_xsdbm_0",
     "cell_name": "xsdbm",
     "component_reference": "xilinx.com:ip:xsdbm:3.0",
-    "ip_revision": "3",
+    "ip_revision": "4",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -86,12 +86,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "3" } ],
+        "IPREVISION": [ { "value": "4" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

@@ -3,17 +3,17 @@ vlib questa_lib/msim
 
 vlib questa_lib/msim/xilinx_vip
 vlib questa_lib/msim/xpm
-vlib questa_lib/msim/xsdbm_v3_0_3
+vlib questa_lib/msim/xsdbm_v3_0_4
 vlib questa_lib/msim/xil_defaultlib
 vlib questa_lib/msim/lut_buffer_v2_0_1
 
 vmap xilinx_vip questa_lib/msim/xilinx_vip
 vmap xpm questa_lib/msim/xpm
-vmap xsdbm_v3_0_3 questa_lib/msim/xsdbm_v3_0_3
+vmap xsdbm_v3_0_4 questa_lib/msim/xsdbm_v3_0_4
 vmap xil_defaultlib questa_lib/msim/xil_defaultlib
 vmap lut_buffer_v2_0_1 questa_lib/msim/lut_buffer_v2_0_1
 
-vlog -work xilinx_vip -64 -incr -mfcu  -sv -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L hbm_v1_0_16 -L xdma_v4_1_31 -L xilinx_vip "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xilinx_vip -64 -incr -mfcu  -sv -L hbm_v1_0_17 "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/xil_common_vip_pkg.sv" \
@@ -24,27 +24,26 @@ vlog -work xilinx_vip -64 -incr -mfcu  -sv -L axi_vip_v1_1_19 -L smartconnect_v1
 "$XILINX_VIVADO/data/xilinx_vip/hdl/clk_vip_if.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/rst_vip_if.sv" \
 
-vlog -work xpm -64 -incr -mfcu  -sv -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L hbm_v1_0_16 -L xdma_v4_1_31 -L xilinx_vip "+incdir+../../../ipstatic/hdl/verilog" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xpm -64 -incr -mfcu  -sv -L hbm_v1_0_17 "+incdir+../../../ipstatic/hdl/verilog" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "$XILINX_VIVADO/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
 "$XILINX_VIVADO/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 
 vcom -work xpm -64 -93  \
 "$XILINX_VIVADO/data/ip/xpm/xpm_VCOMP.vhd" \
 
-vlog -work xsdbm_v3_0_3 -64 -incr -mfcu  "+incdir+../../../ipstatic/hdl/verilog" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xsdbm_v3_0_4 -64 -incr -mfcu  "+incdir+../../../ipstatic/hdl/verilog" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "../../../ipstatic/hdl/xsdbm_v3_0_vl_rfs.v" \
 
-vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../ipstatic/hdl/verilog" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../ipstatic/hdl/verilog" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/sim/bd_a493_xsdbm_0.v" \
 
-vlog -work lut_buffer_v2_0_1 -64 -incr -mfcu  "+incdir+../../../ipstatic/hdl/verilog" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work lut_buffer_v2_0_1 -64 -incr -mfcu  "+incdir+../../../ipstatic/hdl/verilog" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "../../../ipstatic/hdl/lut_buffer_v2_0_vl_rfs.v" \
 
-vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../ipstatic/hdl/verilog" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../ipstatic/hdl/verilog" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_1/sim/bd_a493_lut_buffer_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/sim/bd_a493.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/sim/cl_debug_bridge.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"
-

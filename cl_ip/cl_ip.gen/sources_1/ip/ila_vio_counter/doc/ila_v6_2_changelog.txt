@@ -1,3 +1,16 @@
+2025.1:
+ * Version 6.2 (Rev. 18)
+ * General: Updated IP Catalog taxonomy structure. This change has no impact to the IP.
+ * Revision change in one or more subcores
+
+2024.2.2:
+ * Version 6.2 (Rev. 17)
+ * No changes
+
+2024.2.1:
+ * Version 6.2 (Rev. 17)
+ * Revision change in one or more subcores
+
 2024.2:
  * Version 6.2 (Rev. 16)
  * General: Fixed minor issues
@@ -273,7 +286,7 @@
  * Version 2.0
  * Native Vivado Release
 
-(c) Copyright 2000 - 2024 Advanced Micro Devices, Inc. All rights reserved.
+(c) Copyright 2000 - 2025 Advanced Micro Devices, Inc. All rights reserved.
 
 This file contains confidential and proprietary information
 of AMD and is protected under U.S. and international copyright

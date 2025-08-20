@@ -3,7 +3,7 @@ onbreak {quit -force}
 onerror {quit -force}
 transcript on
 
-asim +access +r +m+clk_mmcm_b  -L xil_defaultlib -L xilinx_vip -L xpm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -O5 xil_defaultlib.clk_mmcm_b xil_defaultlib.glbl
+asim +access +r +m+clk_mmcm_b  -L xil_defaultlib -L xilinx_vip -L xpm -L unisims_ver -L unimacro_ver -L secureip -O5 xil_defaultlib.clk_mmcm_b xil_defaultlib.glbl
 
 do {clk_mmcm_b.udo}
 

@@ -1,3 +1,17 @@
+2025.1:
+ * Version 1.0 (Rev. 17)
+ * General: Updated for 2025.1
+ * General: Updated IP Catalog taxonomy structure. This change has no impact to the IP.
+ * Revision change in one or more subcores
+
+2024.2.2:
+ * Version 1.0 (Rev. 16)
+ * No changes
+
+2024.2.1:
+ * Version 1.0 (Rev. 16)
+ * No changes
+
 2024.2:
  * Version 1.0 (Rev. 16)
  * No changes
@@ -157,7 +171,7 @@
  * Version 1.0
  * General: Initial Release
 
-(c) Copyright 2017 - 2024 Advanced Micro Devices, Inc. All rights reserved.
+(c) Copyright 2017 - 2025 Advanced Micro Devices, Inc. All rights reserved.
 
 This file contains confidential and proprietary information
 of AMD and is protected under U.S. and international copyright

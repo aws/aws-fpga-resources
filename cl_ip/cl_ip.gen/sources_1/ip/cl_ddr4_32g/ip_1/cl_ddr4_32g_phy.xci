@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "cl_ddr4_32g_phy",
     "component_reference": "xilinx.com:ip:ddr4_phy:2.2",
-    "ip_revision": "5",
+    "ip_revision": "8",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -611,12 +611,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "5" } ],
+        "IPREVISION": [ { "value": "8" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

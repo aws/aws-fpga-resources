@@ -7,7 +7,7 @@
       "name": "cl_axi_sc_1x1",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "None",
-      "tool_version": "2024.2",
+      "tool_version": "2025.1",
       "validated": "true"
     },
     "design_tree": {
@@ -420,6 +420,12 @@
           "maximum": "0xFFFFFFFFFFFFFFFF",
           "width": "64"
         },
+        "bd_attributes": {
+          "TYPE": {
+            "value": "END_POINT",
+            "value_src": "auto"
+          }
+        },
         "port_maps": {
           "AWID": {
             "physical_name": "AXI4_awid",
@@ -700,10 +706,11 @@
     "components": {
       "smartconnect_0": {
         "vlnv": "xilinx.com:ip:smartconnect:1.0",
-        "ip_revision": "25",
+        "ip_revision": "27",
         "xci_name": "cl_axi_sc_1x1_smartconnect_0_0",
         "xci_path": "ip/cl_axi_sc_1x1_smartconnect_0_0/cl_axi_sc_1x1_smartconnect_0_0.xci",
         "inst_hier_path": "smartconnect_0",
+        "has_run_ip_tcl": "true",
         "parameters": {
           "NUM_CLKS": {
             "value": "2"
@@ -730,7 +737,17 @@
             },
             "bridges": [
               "M00_AXI"
-            ]
+            ],
+            "bd_attributes": {
+              "BRIDGES": {
+                "value": "M00_AXI",
+                "value_src": "auto"
+              },
+              "TYPE": {
+                "value": "interior",
+                "value_src": "default"
+              }
+            }
           },
           "M00_AXI": {
             "mode": "Master",
@@ -760,6 +777,12 @@
               },
               "WUSER_BITS_PER_BYTE": {
                 "value": "0"
+              }
+            },
+            "bd_attributes": {
+              "TYPE": {
+                "value": "interior",
+                "value_src": "default"
               }
             }
           }

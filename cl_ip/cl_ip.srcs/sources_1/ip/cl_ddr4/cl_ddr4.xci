@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "cl_ddr4",
     "component_reference": "xilinx.com:ip:ddr4:2.2",
-    "ip_revision": "24",
+    "ip_revision": "27",
     "gen_directory": "../../../../cl_ip.gen/sources_1/ip/cl_ddr4",
     "parameters": {
       "component_parameters": {
@@ -306,12 +306,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "24" } ],
+        "IPREVISION": [ { "value": "27" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/cl_ddr4" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

@@ -9,7 +9,7 @@ vmap xilinx_vip modelsim_lib/msim/xilinx_vip
 vmap xpm modelsim_lib/msim/xpm
 vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib
 
-vlog -work xilinx_vip -64 -incr -mfcu  -sv -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L hbm_v1_0_16 -L xdma_v4_1_31 -L xilinx_vip "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xilinx_vip -64 -incr -mfcu  -sv -L hbm_v1_0_17 "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/xil_common_vip_pkg.sv" \
@@ -20,14 +20,14 @@ vlog -work xilinx_vip -64 -incr -mfcu  -sv -L axi_vip_v1_1_19 -L smartconnect_v1
 "$XILINX_VIVADO/data/xilinx_vip/hdl/clk_vip_if.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/rst_vip_if.sv" \
 
-vlog -work xpm -64 -incr -mfcu  -sv -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L hbm_v1_0_16 -L xdma_v4_1_31 -L xilinx_vip "+incdir+../../../ipstatic" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xpm -64 -incr -mfcu  -sv -L hbm_v1_0_17 "+incdir+../../../ipstatic" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "$XILINX_VIVADO/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
 "$XILINX_VIVADO/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 
 vcom -work xpm -64 -93  \
 "$XILINX_VIVADO/data/ip/xpm/xpm_VCOMP.vhd" \
 
-vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../ipstatic" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../ipstatic" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "../../../../cl_ip.gen/sources_1/ip/clk_mmcm_c/clk_mmcm_c_mmcm_pll_drp.v" \
 
 vcom -work xil_defaultlib -64 -93  \
@@ -44,10 +44,9 @@ vcom -work xil_defaultlib -64 -93  \
 "../../../../cl_ip.gen/sources_1/ip/clk_mmcm_c/clk_mmcm_c_clk_wiz_drp.vhd" \
 "../../../../cl_ip.gen/sources_1/ip/clk_mmcm_c/clk_mmcm_c_axi_clk_config.vhd" \
 
-vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../ipstatic" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
+vlog -work xil_defaultlib -64 -incr -mfcu  "+incdir+../../../ipstatic" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" \
 "../../../../cl_ip.gen/sources_1/ip/clk_mmcm_c/clk_mmcm_c_clk_wiz.v" \
 "../../../../cl_ip.gen/sources_1/ip/clk_mmcm_c/clk_mmcm_c.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"
-

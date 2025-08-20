@@ -8,7 +8,7 @@
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "scoped": "true",
       "synth_flow_mode": "None",
-      "tool_version": "2024.2",
+      "tool_version": "2025.1",
       "validated": "true"
     },
     "design_tree": {
@@ -53,10 +53,11 @@
     "components": {
       "xsdbm": {
         "vlnv": "xilinx.com:ip:xsdbm:3.0",
-        "ip_revision": "3",
+        "ip_revision": "4",
         "xci_name": "bd_a493_xsdbm_0",
         "xci_path": "ip/ip_0/bd_a493_xsdbm_0.xci",
         "inst_hier_path": "xsdbm",
+        "has_run_ip_tcl": "true",
         "parameters": {
           "C_BUILD_REVISION": {
             "value": "0"
@@ -123,6 +124,7 @@
         "xci_name": "bd_a493_lut_buffer_0",
         "xci_path": "ip/ip_1/bd_a493_lut_buffer_0.xci",
         "inst_hier_path": "lut_buffer",
+        "has_run_ip_tcl": "true",
         "parameters": {
           "C_EN_BSCANID_VEC": {
             "value": "false"

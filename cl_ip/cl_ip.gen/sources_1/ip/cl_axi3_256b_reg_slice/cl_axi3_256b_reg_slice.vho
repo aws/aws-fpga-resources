@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 -- IP VLNV: xilinx.com:ip:axi_register_slice:2.1
--- IP Revision: 33
+-- IP Revision: 35
 
 -- The following code must appear in the VHDL architecture header.
 

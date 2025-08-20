@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 -- IP VLNV: xilinx.com:ip:axi_clock_converter:2.1
--- IP Revision: 32
+-- IP Revision: 34
 
 -- The following code must appear in the VHDL architecture header.
 

@@ -50,11 +50,11 @@
 #ifndef _bd_6722_one_0_H_
 #define _bd_6722_one_0_H_
 
-#include "xlconstant_v1_1_9.h"
+#include "xlconstant_v1_1_10.h"
 #include "systemc.h"
 class bd_6722_one_0 : public sc_module {
   public:
-xlconstant_v1_1_9<1,1> mod;
+xlconstant_v1_1_10<1,1> mod;
   sc_out< sc_bv<1> > dout;
 bd_6722_one_0 (sc_core::sc_module_name name);
   };

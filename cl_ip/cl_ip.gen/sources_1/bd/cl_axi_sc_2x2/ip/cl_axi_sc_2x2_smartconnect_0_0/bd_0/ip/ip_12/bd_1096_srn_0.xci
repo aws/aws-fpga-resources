@@ -4,7 +4,7 @@
     "xci_name": "bd_1096_srn_0",
     "cell_name": "s00_r_node",
     "component_reference": "xilinx.com:ip:sc_node:1.0",
-    "ip_revision": "17",
+    "ip_revision": "18",
     "gen_directory": ".",
     "parameters": {
       "component_parameters": {
@@ -129,12 +129,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "17" } ],
+        "IPREVISION": [ { "value": "18" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../../../../ipshared" } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },

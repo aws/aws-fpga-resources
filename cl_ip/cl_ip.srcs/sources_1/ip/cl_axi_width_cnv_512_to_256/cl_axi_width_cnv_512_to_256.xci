@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "cl_axi_width_cnv_512_to_256",
     "component_reference": "xilinx.com:ip:axi_dwidth_converter:2.1",
-    "ip_revision": "33",
+    "ip_revision": "36",
     "gen_directory": "../../../../cl_ip.gen/sources_1/ip/cl_axi_width_cnv_512_to_256",
     "parameters": {
       "component_parameters": {
@@ -55,12 +55,12 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "33" } ],
+        "IPREVISION": [ { "value": "36" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/cl_axi_width_cnv_512_to_256" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2024.2" } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },
