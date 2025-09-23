@@ -1,0 +1,257 @@
+// (c) Copyright 2022 Xilinx, Inc. All rights reserved.
+// 
+// This file contains confidential and proprietary information
+// of Xilinx, Inc. and is protected under U.S. and
+// international copyright and other intellectual property
+// laws.
+// 
+// DISCLAIMER
+// This disclaimer is not a license and does not grant any
+// rights to the materials distributed herewith. Except as
+// otherwise provided in a valid license issued to you by
+// Xilinx, and to the maximum extent permitted by applicable
+// law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+// WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+// AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+// BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+// INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+// (2) Xilinx shall not be liable (whether in contract or tort,
+// including negligence, or under any other theory of
+// liability) for any loss or damage of any kind or nature
+// related to, arising under or in connection with these
+// materials, including for any direct, or any indirect,
+// special, incidental, or consequential loss or damage
+// (including loss of data, profits, goodwill, or any type of
+// loss or damage suffered as a result of any action brought
+// by a third party) even if such damage or loss was
+// reasonably foreseeable or Xilinx had been advised of the
+// possibility of the same.
+// 
+// CRITICAL APPLICATIONS
+// Xilinx products are not designed or intended to be fail-
+// safe, or for use in any application requiring fail-safe
+// performance, such as life-support or safety devices or
+// systems, Class III medical devices, nuclear facilities,
+// applications related to the deployment of airbags, or any
+// other applications that could lead to death, personal
+// injury, or severe property or environmental damage
+// (individually and collectively, "Critical
+// Applications"). Customer assumes the sole risk and
+// liability of any use of Xilinx products in Critical
+// Applications, subject only to applicable laws and
+// regulations governing limitations on product liability.
+// 
+// THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+// PART OF THIS FILE AT ALL TIMES.
+// 
+// DO NOT MODIFY THIS FILE.
+//
+// File: sh_connectors.vh
+// Static port connections on the instance of cl_wrapper.v
+
+        .S_SH_cfg_max_payload(cfg_max_payload),
+        .S_SH_cfg_max_read_req(cfg_max_read_req),
+        .S_SH_cl_ocl_arready(cl_ocl_arready),
+        .S_SH_cl_ocl_awready(cl_ocl_awready),
+        .S_SH_cl_ocl_bresp(cl_ocl_bresp),
+        .S_SH_cl_ocl_bvalid(cl_ocl_bvalid),
+        .S_SH_cl_ocl_rdata(cl_ocl_rdata),
+        .S_SH_cl_ocl_rresp(cl_ocl_rresp),
+        .S_SH_cl_ocl_rvalid(cl_ocl_rvalid),
+        .S_SH_cl_ocl_wready(cl_ocl_wready),
+        .S_SH_cl_sda_arready(cl_sda_arready),
+        .S_SH_cl_sda_awready(cl_sda_awready),
+        .S_SH_cl_sda_bresp(cl_sda_bresp),
+        .S_SH_cl_sda_bvalid(cl_sda_bvalid),
+        .S_SH_cl_sda_rdata(cl_sda_rdata),
+        .S_SH_cl_sda_rresp(cl_sda_rresp),
+        .S_SH_cl_sda_rvalid(cl_sda_rvalid),
+        .S_SH_cl_sda_wready(cl_sda_wready),
+        .S_SH_cl_sh_apppf_irq_req(cl_sh_apppf_irq_req),
+        .S_SH_cl_sh_ddr_stat_ack(cl_sh_ddr_stat_ack),
+        .S_SH_cl_sh_ddr_stat_int(cl_sh_ddr_stat_int),
+        .S_SH_cl_sh_ddr_stat_rdata(cl_sh_ddr_stat_rdata),
+        .S_SH_cl_sh_dma_pcis_arready(cl_sh_dma_pcis_arready),
+        .S_SH_cl_sh_dma_pcis_awready(cl_sh_dma_pcis_awready),
+        .S_SH_cl_sh_dma_pcis_bid(cl_sh_dma_pcis_bid),
+        .S_SH_cl_sh_dma_pcis_bresp(cl_sh_dma_pcis_bresp),
+        .S_SH_cl_sh_dma_pcis_bvalid(cl_sh_dma_pcis_bvalid),
+        .S_SH_cl_sh_dma_pcis_rdata(cl_sh_dma_pcis_rdata),
+        .S_SH_cl_sh_dma_pcis_ruser(cl_sh_dma_pcis_ruser),
+        .S_SH_cl_sh_dma_pcis_rid(cl_sh_dma_pcis_rid),
+        .S_SH_cl_sh_dma_pcis_rlast(cl_sh_dma_pcis_rlast),
+        .S_SH_cl_sh_dma_pcis_rresp(cl_sh_dma_pcis_rresp),
+        .S_SH_cl_sh_dma_pcis_rvalid(cl_sh_dma_pcis_rvalid),
+        .S_SH_cl_sh_dma_pcis_wready(cl_sh_dma_pcis_wready),
+        .S_SH_cl_sh_dma_rd_full(cl_sh_dma_rd_full),
+        .S_SH_cl_sh_dma_wr_full(cl_sh_dma_wr_full),
+        .S_SH_cl_sh_flr_done(cl_sh_flr_done),
+        .S_SH_cl_sh_id0(cl_sh_id0),
+        .S_SH_cl_sh_id1(cl_sh_id1),
+        .S_SH_cl_sh_pcim_araddr(cl_sh_pcim_araddr),
+        .S_SH_cl_sh_pcim_arburst(cl_sh_pcim_arburst),
+        .S_SH_cl_sh_pcim_arcache(cl_sh_pcim_arcache),
+        .S_SH_cl_sh_pcim_arid(cl_sh_pcim_arid),
+        .S_SH_cl_sh_pcim_arlen(cl_sh_pcim_arlen),
+        .S_SH_cl_sh_pcim_arlock(cl_sh_pcim_arlock),
+        .S_SH_cl_sh_pcim_arprot(cl_sh_pcim_arprot),
+        .S_SH_cl_sh_pcim_arqos(cl_sh_pcim_arqos),
+        .S_SH_cl_sh_pcim_arsize(cl_sh_pcim_arsize),
+        .S_SH_cl_sh_pcim_aruser(cl_sh_pcim_aruser),
+        .S_SH_cl_sh_pcim_arvalid(cl_sh_pcim_arvalid),
+        .S_SH_cl_sh_pcim_awaddr(cl_sh_pcim_awaddr),
+        .S_SH_cl_sh_pcim_awburst(cl_sh_pcim_awburst),
+        .S_SH_cl_sh_pcim_awcache(cl_sh_pcim_awcache),
+        .S_SH_cl_sh_pcim_awid(cl_sh_pcim_awid),
+        .S_SH_cl_sh_pcim_awlen(cl_sh_pcim_awlen),
+        .S_SH_cl_sh_pcim_awlock(cl_sh_pcim_awlock),
+        .S_SH_cl_sh_pcim_awprot(cl_sh_pcim_awprot),
+        .S_SH_cl_sh_pcim_awqos(cl_sh_pcim_awqos),
+        .S_SH_cl_sh_pcim_awsize(cl_sh_pcim_awsize),
+        .S_SH_cl_sh_pcim_awuser(cl_sh_pcim_awuser),
+        .S_SH_cl_sh_pcim_awvalid(cl_sh_pcim_awvalid),
+        .S_SH_cl_sh_pcim_bready(cl_sh_pcim_bready),
+        .S_SH_cl_sh_pcim_rready(cl_sh_pcim_rready),
+        .S_SH_cl_sh_pcim_wuser(cl_sh_pcim_wuser),
+        .S_SH_cl_sh_pcim_wdata(cl_sh_pcim_wdata),
+        .S_SH_cl_sh_pcim_wid(cl_sh_pcim_wid),
+        .S_SH_cl_sh_pcim_wlast(cl_sh_pcim_wlast),
+        .S_SH_cl_sh_pcim_wstrb(cl_sh_pcim_wstrb),
+        .S_SH_cl_sh_pcim_wvalid(cl_sh_pcim_wvalid),
+        .S_SH_cl_sh_status0(cl_sh_status0),
+        .S_SH_cl_sh_status1(cl_sh_status1),
+        .S_SH_cl_sh_status2(cl_sh_status2),
+        .S_SH_cl_sh_status_vled(cl_sh_status_vled),
+        .S_SH_clk_hbm_ref(clk_hbm_ref),
+        .S_SH_clk_dimm_dn(CLK_DIMM_DN),
+        .S_SH_clk_dimm_dp(CLK_DIMM_DP),
+        .S_SH_clk_main_a0(clk_main_a0),
+        .S_SH_m_act_n(M_ACT_N),
+        .S_SH_m_ba(M_BA),
+        .S_SH_m_bg(M_BG),
+        .S_SH_m_cke(M_CKE),
+        .S_SH_m_clk_dn(M_CLK_DN),
+        .S_SH_m_clk_dp(M_CLK_DP),
+        .S_SH_m_cs_n(M_CS_N),
+        .S_SH_m_dq(M_DQ),
+        .S_SH_m_dqs_dn(M_DQS_DN),
+        .S_SH_m_dqs_dp(M_DQS_DP),
+        .S_SH_m_ecc(M_ECC),
+        .S_SH_m_ma(M_MA),
+        .S_SH_m_odt(M_ODT),
+        .S_SH_m_par(M_PAR),
+        .S_SH_ocl_cl_araddr(ocl_cl_araddr),
+        .S_SH_ocl_cl_arvalid(ocl_cl_arvalid),
+        .S_SH_ocl_cl_awaddr(ocl_cl_awaddr),
+        .S_SH_ocl_cl_awvalid(ocl_cl_awvalid),
+        .S_SH_ocl_cl_awuser(ocl_cl_awuser),
+        .S_SH_ocl_cl_aruser(ocl_cl_aruser),
+        .S_SH_ocl_cl_bready(ocl_cl_bready),
+        .S_SH_ocl_cl_rready(ocl_cl_rready),
+        .S_SH_ocl_cl_wdata(ocl_cl_wdata),
+        .S_SH_ocl_cl_wstrb(ocl_cl_wstrb),
+        .S_SH_ocl_cl_wvalid(ocl_cl_wvalid),
+        .S_SH_sda_cl_araddr(sda_cl_araddr),
+        .S_SH_sda_cl_arvalid(sda_cl_arvalid),
+        .S_SH_sda_cl_awaddr(sda_cl_awaddr),
+        .S_SH_sda_cl_awvalid(sda_cl_awvalid),
+        .S_SH_sda_cl_bready(sda_cl_bready),
+        .S_SH_sda_cl_rready(sda_cl_rready),
+        .S_SH_sda_cl_wdata(sda_cl_wdata),
+        .S_SH_sda_cl_wstrb(sda_cl_wstrb),
+        .S_SH_sda_cl_wvalid(sda_cl_wvalid),
+        .S_SH_rst_dimm_n(RST_DIMM_N),
+        .S_SH_rst_main_n(rst_main_n),
+        .S_SH_sh_cl_apppf_irq_ack(sh_cl_apppf_irq_ack),
+        .S_SH_sh_cl_ctl0(sh_cl_ctl0),
+        .S_SH_sh_cl_ctl1(sh_cl_ctl1),
+        .S_SH_sh_cl_ctl2(sh_cl_ctl2),
+        .S_SH_sh_cl_ddr_stat_addr(sh_cl_ddr_stat_addr),
+        .S_SH_sh_cl_ddr_stat_rd(sh_cl_ddr_stat_rd),
+        .S_SH_sh_cl_ddr_stat_user(sh_cl_ddr_stat_user),
+        .S_SH_sh_cl_ddr_stat_wdata(sh_cl_ddr_stat_wdata),
+        .S_SH_sh_cl_ddr_stat_wr(sh_cl_ddr_stat_wr),
+        .S_SH_sh_cl_dma_pcis_araddr(sh_cl_dma_pcis_araddr),
+        .S_SH_sh_cl_dma_pcis_arburst(sh_cl_dma_pcis_arburst),
+        .S_SH_sh_cl_dma_pcis_arcache(sh_cl_dma_pcis_arcache),
+        .S_SH_sh_cl_dma_pcis_arid(sh_cl_dma_pcis_arid),
+        .S_SH_sh_cl_dma_pcis_arlen(sh_cl_dma_pcis_arlen),
+        .S_SH_sh_cl_dma_pcis_arlock(sh_cl_dma_pcis_arlock),
+        .S_SH_sh_cl_dma_pcis_arprot(sh_cl_dma_pcis_arprot),
+        .S_SH_sh_cl_dma_pcis_arqos(sh_cl_dma_pcis_arqos),
+        .S_SH_sh_cl_dma_pcis_arsize(sh_cl_dma_pcis_arsize),
+        .S_SH_sh_cl_dma_pcis_aruser(sh_cl_dma_pcis_aruser),
+        .S_SH_sh_cl_dma_pcis_arvalid(sh_cl_dma_pcis_arvalid),
+        .S_SH_sh_cl_dma_pcis_awaddr(sh_cl_dma_pcis_awaddr),
+        .S_SH_sh_cl_dma_pcis_awburst(sh_cl_dma_pcis_awburst),
+        .S_SH_sh_cl_dma_pcis_awcache(sh_cl_dma_pcis_awcache),
+        .S_SH_sh_cl_dma_pcis_awid(sh_cl_dma_pcis_awid),
+        .S_SH_sh_cl_dma_pcis_awlen(sh_cl_dma_pcis_awlen),
+        .S_SH_sh_cl_dma_pcis_awlock(sh_cl_dma_pcis_awlock),
+        .S_SH_sh_cl_dma_pcis_awprot(sh_cl_dma_pcis_awprot),
+        .S_SH_sh_cl_dma_pcis_awqos(sh_cl_dma_pcis_awqos),
+        .S_SH_sh_cl_dma_pcis_awsize(sh_cl_dma_pcis_awsize),
+        .S_SH_sh_cl_dma_pcis_awuser(sh_cl_dma_pcis_awuser),
+        .S_SH_sh_cl_dma_pcis_wuser(sh_cl_dma_pcis_wuser),
+        .S_SH_sh_cl_dma_pcis_awvalid(sh_cl_dma_pcis_awvalid),
+        .S_SH_sh_cl_dma_pcis_bready(sh_cl_dma_pcis_bready),
+        .S_SH_sh_cl_dma_pcis_rready(sh_cl_dma_pcis_rready),
+        .S_SH_sh_cl_dma_pcis_wdata(sh_cl_dma_pcis_wdata),
+        .S_SH_sh_cl_dma_pcis_wid(sh_cl_dma_pcis_wid),
+        .S_SH_sh_cl_dma_pcis_wlast(sh_cl_dma_pcis_wlast),
+        .S_SH_sh_cl_dma_pcis_wstrb(sh_cl_dma_pcis_wstrb),
+        .S_SH_sh_cl_dma_pcis_wvalid(sh_cl_dma_pcis_wvalid),
+        .S_SH_sh_cl_flr_assert(sh_cl_flr_assert),
+        .S_SH_sh_cl_glcount0(sh_cl_glcount0),
+        .S_SH_sh_cl_glcount1(sh_cl_glcount1),
+        .S_SH_sh_cl_pcim_arready(sh_cl_pcim_arready),
+        .S_SH_sh_cl_pcim_awready(sh_cl_pcim_awready),
+        .S_SH_sh_cl_pcim_bid(sh_cl_pcim_bid),
+        .S_SH_sh_cl_pcim_bresp(sh_cl_pcim_bresp),
+        .S_SH_sh_cl_pcim_bvalid(sh_cl_pcim_bvalid),
+        .S_SH_sh_cl_pcim_rdata(sh_cl_pcim_rdata),
+        .S_SH_sh_cl_pcim_ruser(sh_cl_pcim_ruser),
+        .S_SH_sh_cl_pcim_rid(sh_cl_pcim_rid),
+        .S_SH_sh_cl_pcim_rlast(sh_cl_pcim_rlast),
+        .S_SH_sh_cl_pcim_rresp(sh_cl_pcim_rresp),
+        .S_SH_sh_cl_pcim_rvalid(sh_cl_pcim_rvalid),
+        .S_SH_sh_cl_pcim_wready(sh_cl_pcim_wready),
+        .S_SH_sh_cl_pwr_state(sh_cl_pwr_state),
+        .S_SH_sh_cl_status_vdip(sh_cl_status_vdip),
+        .S_SH_pcie_ep_perstn(PCIE_EP_PERSTN),
+        .S_SH_pcie_ep_ref_clk_p(PCIE_EP_REF_CLK_P),
+        .S_SH_pcie_ep_ref_clk_n(PCIE_EP_REF_CLK_N),
+        .S_SH_pcie_ep_txp(PCIE_EP_TXP),
+        .S_SH_pcie_ep_txn(PCIE_EP_TXN),
+        .S_SH_pcie_ep_rxp(PCIE_EP_RXP),
+        .S_SH_pcie_ep_rxn(PCIE_EP_RXN),
+        .S_SH_pcie_rp_perstn(PCIE_RP_PERSTN),
+        .S_SH_pcie_rp_ref_clk_p(PCIE_RP_REF_CLK_P),
+        .S_SH_pcie_rp_ref_clk_n(PCIE_RP_REF_CLK_N),
+        .S_SH_pcie_rp_txp(PCIE_RP_TXP),
+        .S_SH_pcie_rp_txn(PCIE_RP_TXN),
+        .S_SH_pcie_rp_rxp(PCIE_RP_RXP),
+        .S_SH_pcie_rp_rxn(PCIE_RP_RXN),
+        .S_SH_hbm_apb_preset_n_0(hbm_apb_preset_n_0),
+        .S_SH_hbm_apb_paddr_0(hbm_apb_paddr_0),
+        .S_SH_hbm_apb_pprot_0(hbm_apb_pprot_0),
+        .S_SH_hbm_apb_psel_0(hbm_apb_psel_0),
+        .S_SH_hbm_apb_penable_0(hbm_apb_penable_0),
+        .S_SH_hbm_apb_pwrite_0(hbm_apb_pwrite_0),
+        .S_SH_hbm_apb_pwdata_0(hbm_apb_pwdata_0),
+        .S_SH_hbm_apb_pstrb_0(hbm_apb_pstrb_0),
+        .S_SH_hbm_apb_pready_0(hbm_apb_pready_0),
+        .S_SH_hbm_apb_prdata_0(hbm_apb_prdata_0),
+        .S_SH_hbm_apb_pslverr_0(hbm_apb_pslverr_0),
+        .S_SH_hbm_apb_preset_n_1(hbm_apb_preset_n_1),
+        .S_SH_hbm_apb_paddr_1(hbm_apb_paddr_1),
+        .S_SH_hbm_apb_pprot_1(hbm_apb_pprot_1),
+        .S_SH_hbm_apb_psel_1(hbm_apb_psel_1),
+        .S_SH_hbm_apb_penable_1(hbm_apb_penable_1),
+        .S_SH_hbm_apb_pwrite_1(hbm_apb_pwrite_1),
+        .S_SH_hbm_apb_pwdata_1(hbm_apb_pwdata_1),
+        .S_SH_hbm_apb_pstrb_1(hbm_apb_pstrb_1),
+        .S_SH_hbm_apb_pready_1(hbm_apb_pready_1),
+        .S_SH_hbm_apb_prdata_1(hbm_apb_prdata_1),
+        .S_SH_hbm_apb_pslverr_1(hbm_apb_pslverr_1)
+        

@@ -1,0 +1,91 @@
+<: set CompName [getComponentNameString] :>
+<: setOutputDirectory "./" :>
+<: setFileName "${CompName}_clocks"                                                       :>
+<: setFileExtension ".xdc"                                                                :>
+<: setFileUsedIn { synthesis implementation } :>
+<: setFileProcessingOrder late                                                            :>
+<: set ddr0_present [getIntValue "C_DDR_A_PRESENT"] :>
+###############################################################################################################
+# Core-Level Timing Constraints for DDR4 controllers in AWS Component "<=:$CompName:>"
+###############################################################################################################
+#
+# =============================================================================
+# Amazon FPGA Hardware Development Kit
+#
+# Copyright 2025 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+#
+# Licensed under the Amazon Software License (the "License"). You may not use
+# this file except in compliance with the License. A copy of the License is
+# located at
+#
+#    http://aws.amazon.com/asl/
+#
+# or in the "license" file accompanying this file. This file is distributed on
+# an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, express or
+# implied. See the License for the specific language governing permissions and
+# limitations under the License.
+# =============================================================================
+
+<: if {$ddr0_present != 0} { :>
+set ddr4_0_clk [get_pins -hierarchical -filter {NAME =~ *sh_ddr_0/*DDR4_0/inst/u_ddr4_infrastructure/gen_mmcme4.u_mmcme_adv_inst/CLKOUT0}]
+set_max_delay -datapath_only \
+              -from [get_clocks -of_objects $ddr4_0_clk] \
+              -to [get_clocks -of [get_ports clk_main_a0]] \
+              [get_property PERIOD [get_clocks -of_objects $ddr4_0_clk]]
+set_max_delay -datapath_only \
+              -from [get_clocks -of [get_ports clk_main_a0]] \
+              -to [get_clocks -of_objects $ddr4_0_clk] \
+              [get_property PERIOD [get_clocks -of_objects [get_ports clk_main_a0]]]
+
+<: } :>
+<: if {($ddr0_present != 0)} { :>
+set asyncFFs [get_cells -quiet -hier -filter  {NAME =~ *sh_ddr_0/*sync_wr_rst/in_q_reg[0] || NAME =~ *sh_ddr_0/*sync_wr_rst/sync_out_reg[0]}]
+set asyncFFPins [get_pins -quiet -filter REF_PIN_NAME==CLR -of $asyncFFs]
+set_false_path -quiet -to $asyncFFPins
+set_property -quiet ASYNC_REG true $asyncFFs
+<: } else { :>
+###############################################################################################################
+# None of the CL-based DDR4 controllers are enabled. Therefore, no constraints are generated in this file.
+###############################################################################################################
+<: } :>
+
+###############################################################################################################
+# Original DDR4 timing constraints applicable to non_IPI workflow:
+###############################################################################################################
+
+#create_clock -period 3.334 -name CLK_300M_DIMM0_DP [get_ports CLK_300M_DIMM0_DP]
+#
+#set_false_path -from [get_clocks cl_clk0] -to [get_clocks CLK_300M_DIMM0_DP]
+#set_false_path -from [get_clocks cl_clk0] -to [get_clocks CLK_300M_DIMM1_DP]
+#set_false_path -from [get_clocks cl_clk0] -to [get_clocks CLK_300M_DIMM3_DP]
+#set_false_path -from [get_clocks CLK_300M_DIMM0_DP] -to [get_clocks cl_clk0]
+#set_false_path -from [get_clocks CLK_300M_DIMM1_DP] -to [get_clocks cl_clk0]
+#set_false_path -from [get_clocks CLK_300M_DIMM3_DP] -to [get_clocks cl_clk0]
+#
+#set_clock_groups -asynchronous -group [get_clocks cl_clk0] -group [get_clocks mmcm_clkout0*]
+#
+#set_clock_groups -asynchronous -group [get_clocks cl_clk0] -group [get_clocks CLK_300M_DIMM0_DP]
+#set_clock_groups -asynchronous -group [get_clocks cl_clk0] -group [get_clocks CLK_300M_DIMM1_DP]
+#set_clock_groups -asynchronous -group [get_clocks cl_clk0] -group [get_clocks CLK_300M_DIMM3_DP]
+#
+#set_max_delay -datapath_only \
+#              -from [get_clocks -of_objects [get_pins SH_DDR/ddr_cores.DDR4_0/inst/u_ddr4_infrastructure/gen_mmcme4.u_mmcme_adv_inst/CLKOUT0]] \
+#              -to [get_clocks -of [get_ports clk_main_a0]] \
+#              [get_property PERIOD [get_clocks -of_objects [get_pins SH_DDR/ddr_cores.DDR4_0/inst/u_ddr4_infrastructure/gen_mmcme4.u_mmcme_adv_inst/CLKOUT0]]]
+#set_max_delay -datapath_only \
+#              -from [get_clocks -of_objects [get_pins SH_DDR/ddr_cores.DDR4_1/inst/u_ddr4_infrastructure/gen_mmcme4.u_mmcme_adv_inst/CLKOUT0]]    \
+#              -to [get_clocks -of [get_ports clk_main_a0]] \
+#              [get_property PERIOD [get_clocks -of_objects [get_pins SH_DDR/ddr_cores.DDR4_1/inst/u_ddr4_infrastructure/gen_mmcme4.u_mmcme_adv_inst/CLKOUT0]]]
+#set_max_delay -datapath_only \
+#              -from [get_clocks -of_objects [get_pins SH_DDR/ddr_cores.DDR4_2/inst/u_ddr4_infrastructure/gen_mmcme4.u_mmcme_adv_inst/CLKOUT0]]    \
+#              -to [get_clocks -of [get_ports clk_main_a0]] \
+#              [get_property PERIOD [get_clocks -of_objects [get_pins SH_DDR/ddr_cores.DDR4_2/inst/u_ddr4_infrastructure/gen_mmcme4.u_mmcme_adv_inst/CLKOUT0]]]
+#set_max_delay -datapath_only \
+#              -from [get_clocks -of [get_ports clk_main_a0]] \
+#              -to [get_clocks -of_objects [get_pins SH_DDR/ddr_cores.DDR4_*/inst/u_ddr4_infrastructure/gen_mmcme4.u_mmcme_adv_inst/CLKOUT0]] \
+#              [get_property PERIOD [get_clocks -of_objects [get_ports clk_main_a0]]]
+#
+#set asyncFFs [get_cells -quiet -hier -filter  {NAME =~ CL/SH_DDR/*sync_wr_rst/in_q_reg[0] || NAME =~ CL/SH_DDR/*sync_wr_rst/sync_out_reg[0]}]
+#set asyncFFPins [get_pins -quiet -filter REF_PIN_NAME==CLR -of $asyncFFs]
+#set_false_path -quiet -to $asyncFFPins
+#set_property -quiet ASYNC_REG true $asyncFFs
