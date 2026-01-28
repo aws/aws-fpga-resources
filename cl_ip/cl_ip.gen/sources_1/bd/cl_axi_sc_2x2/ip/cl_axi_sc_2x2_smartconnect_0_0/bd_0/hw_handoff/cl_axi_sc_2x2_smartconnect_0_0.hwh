@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Aug 15 16:57:35 2025" VIVADOVERSION="2025.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Dec  8 20:38:25 2025" VIVADOVERSION="2025.2">
 
   <SYSTEMINFO ARCH="virtexuplusHBM" DEVICE="xcvu47p" NAME="bd_1096" PACKAGE="fsvh2892" SPEEDGRADE="-2"/>
 
@@ -1061,7 +1061,7 @@
   </EXTERNALINTERFACES>
 
   <MODULES>
-    <MODULE COREREVISION="10" FULLNAME="/clk_map/one" HWVERSION="1.1" INSTANCE="clk_map_one" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+    <MODULE COREREVISION="0" FULLNAME="/clk_map/one" HWVERSION="2.0" INSTANCE="clk_map_one" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:2.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
@@ -1174,7 +1174,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="17" FULLNAME="/m00_exit_pipeline/m00_exit" HWVERSION="1.0" INSTANCE="m00_exit_pipeline_m00_exit" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_exit" VLNV="xilinx.com:ip:sc_exit:1.0">
+    <MODULE COREREVISION="18" FULLNAME="/m00_exit_pipeline/m00_exit" HWVERSION="1.0" INSTANCE="m00_exit_pipeline_m00_exit" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_exit" VLNV="xilinx.com:ip:sc_exit:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -2013,7 +2013,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m00_nodes/m00_ar_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m00_nodes/m00_ar_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -2216,7 +2216,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m00_nodes/m00_aw_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_aw_node" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m00_nodes/m00_aw_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_aw_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -2324,7 +2324,7 @@
         <PARAMETER NAME="S_PIPELINE" VALUE="0"/>
         <PARAMETER NAME="USER_BITS_PER_BYTE" VALUE="0"/>
         <PARAMETER NAME="USER_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
         <PORT DIR="O" LEFT="15" NAME="m_axis_arb_tdata" RIGHT="0" SIGIS="undef" SIGNAME="m00_nodes_m00_aw_node_m_axis_arb_tdata">
@@ -2414,7 +2414,7 @@
         </PORT>
       </PORTS>
       <BUSINTERFACES>
-        <BUSINTERFACE BUSNAME="switchboards_aw_switchboard_M00_SC" NAME="S_SC" TYPE="TARGET" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="switchboards_aw_switchboard_M00_SC" NAME="S_SC" TYPE="SLAVE" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="s_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="s_sc_payld"/>
@@ -2423,7 +2423,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m00_nodes_m00_aw_node_M_SC" NAME="M_SC" TYPE="INITIATOR" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="m00_nodes_m00_aw_node_M_SC" NAME="M_SC" TYPE="MASTER" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="m_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="m_sc_payld"/>
@@ -2432,7 +2432,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="m_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m00_nodes_m00_aw_node_M_AXIS_ARB" NAME="M_AXIS_ARB" TYPE="INITIATOR" VLNV="xilinx.com:interface:axis:1.0">
+        <BUSINTERFACE BUSNAME="m00_nodes_m00_aw_node_M_AXIS_ARB" NAME="M_AXIS_ARB" TYPE="MASTER" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="CLK_DOMAIN" VALUE="cl_axi_sc_2x2_aclk_250"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="250000000"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
@@ -2454,7 +2454,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m00_nodes/m00_b_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m00_nodes/m00_b_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -2657,7 +2657,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m00_nodes/m00_r_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m00_nodes/m00_r_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -2860,7 +2860,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m00_nodes/m00_w_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_w_node" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m00_nodes/m00_w_node" HWVERSION="1.0" INSTANCE="m00_nodes_m00_w_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -2968,7 +2968,7 @@
         <PARAMETER NAME="S_PIPELINE" VALUE="0"/>
         <PARAMETER NAME="USER_BITS_PER_BYTE" VALUE="0"/>
         <PARAMETER NAME="USER_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
         <PORT CLKFREQUENCY="250000000" DIR="I" NAME="m_sc_aclk" SIGIS="clk" SIGNAME="External_Ports_aclk">
@@ -3058,7 +3058,7 @@
         </PORT>
       </PORTS>
       <BUSINTERFACES>
-        <BUSINTERFACE BUSNAME="switchboards_w_switchboard_M00_SC" NAME="S_SC" TYPE="TARGET" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="switchboards_w_switchboard_M00_SC" NAME="S_SC" TYPE="SLAVE" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="s_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="s_sc_payld"/>
@@ -3067,7 +3067,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m00_nodes_m00_w_node_M_SC" NAME="M_SC" TYPE="INITIATOR" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="m00_nodes_m00_w_node_M_SC" NAME="M_SC" TYPE="MASTER" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="m_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="m_sc_payld"/>
@@ -3076,7 +3076,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="m_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m00_nodes_m00_aw_node_M_AXIS_ARB" NAME="S_AXIS_ARB" TYPE="TARGET" VLNV="xilinx.com:interface:axis:1.0">
+        <BUSINTERFACE BUSNAME="m00_nodes_m00_aw_node_M_AXIS_ARB" NAME="S_AXIS_ARB" TYPE="SLAVE" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="CLK_DOMAIN" VALUE="cl_axi_sc_2x2_aclk_250"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="250000000"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
@@ -3098,7 +3098,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="10" FULLNAME="/m00_sc2axi" HWVERSION="1.0" INSTANCE="m00_sc2axi" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_sc2axi" VLNV="xilinx.com:ip:sc_sc2axi:1.0">
+    <MODULE COREREVISION="11" FULLNAME="/m00_sc2axi" HWVERSION="1.0" INSTANCE="m00_sc2axi" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_sc2axi" VLNV="xilinx.com:ip:sc_sc2axi:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -3492,7 +3492,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_ar_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m00_nodes_m00_aw_node_M_SC" NAME="S_SC_AW" TYPE="TARGET" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="m00_nodes_m00_aw_node_M_SC" NAME="S_SC_AW" TYPE="SLAVE" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="s_sc_aw_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="s_sc_aw_payld"/>
@@ -3501,7 +3501,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_aw_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m00_nodes_m00_w_node_M_SC" NAME="S_SC_W" TYPE="TARGET" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="m00_nodes_m00_w_node_M_SC" NAME="S_SC_W" TYPE="SLAVE" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="s_sc_w_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="s_sc_w_payld"/>
@@ -3585,7 +3585,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="17" FULLNAME="/m01_exit_pipeline/m01_exit" HWVERSION="1.0" INSTANCE="m01_exit_pipeline_m01_exit" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_exit" VLNV="xilinx.com:ip:sc_exit:1.0">
+    <MODULE COREREVISION="18" FULLNAME="/m01_exit_pipeline/m01_exit" HWVERSION="1.0" INSTANCE="m01_exit_pipeline_m01_exit" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_exit" VLNV="xilinx.com:ip:sc_exit:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -4424,7 +4424,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m01_nodes/m01_ar_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m01_nodes/m01_ar_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -4627,7 +4627,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m01_nodes/m01_aw_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_aw_node" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m01_nodes/m01_aw_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_aw_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -4735,7 +4735,7 @@
         <PARAMETER NAME="S_PIPELINE" VALUE="0"/>
         <PARAMETER NAME="USER_BITS_PER_BYTE" VALUE="0"/>
         <PARAMETER NAME="USER_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
         <PORT DIR="O" LEFT="15" NAME="m_axis_arb_tdata" RIGHT="0" SIGIS="undef" SIGNAME="m01_nodes_m01_aw_node_m_axis_arb_tdata">
@@ -4825,7 +4825,7 @@
         </PORT>
       </PORTS>
       <BUSINTERFACES>
-        <BUSINTERFACE BUSNAME="switchboards_aw_switchboard_M01_SC" NAME="S_SC" TYPE="TARGET" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="switchboards_aw_switchboard_M01_SC" NAME="S_SC" TYPE="SLAVE" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="s_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="s_sc_payld"/>
@@ -4834,7 +4834,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m01_nodes_m01_aw_node_M_SC" NAME="M_SC" TYPE="INITIATOR" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="m01_nodes_m01_aw_node_M_SC" NAME="M_SC" TYPE="MASTER" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="m_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="m_sc_payld"/>
@@ -4843,7 +4843,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="m_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m01_nodes_m01_aw_node_M_AXIS_ARB" NAME="M_AXIS_ARB" TYPE="INITIATOR" VLNV="xilinx.com:interface:axis:1.0">
+        <BUSINTERFACE BUSNAME="m01_nodes_m01_aw_node_M_AXIS_ARB" NAME="M_AXIS_ARB" TYPE="MASTER" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="CLK_DOMAIN" VALUE="cl_axi_sc_2x2_aclk_250"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="250000000"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
@@ -4865,7 +4865,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m01_nodes/m01_b_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m01_nodes/m01_b_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -5068,7 +5068,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m01_nodes/m01_r_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m01_nodes/m01_r_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -5271,7 +5271,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/m01_nodes/m01_w_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_w_node" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/m01_nodes/m01_w_node" HWVERSION="1.0" INSTANCE="m01_nodes_m01_w_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -5379,7 +5379,7 @@
         <PARAMETER NAME="S_PIPELINE" VALUE="0"/>
         <PARAMETER NAME="USER_BITS_PER_BYTE" VALUE="0"/>
         <PARAMETER NAME="USER_WIDTH" VALUE="0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="BUS"/>
       </PARAMETERS>
       <PORTS>
         <PORT CLKFREQUENCY="250000000" DIR="I" NAME="m_sc_aclk" SIGIS="clk" SIGNAME="External_Ports_aclk">
@@ -5469,7 +5469,7 @@
         </PORT>
       </PORTS>
       <BUSINTERFACES>
-        <BUSINTERFACE BUSNAME="switchboards_w_switchboard_M01_SC" NAME="S_SC" TYPE="TARGET" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="switchboards_w_switchboard_M01_SC" NAME="S_SC" TYPE="SLAVE" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="s_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="s_sc_payld"/>
@@ -5478,7 +5478,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m01_nodes_m01_w_node_M_SC" NAME="M_SC" TYPE="INITIATOR" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="m01_nodes_m01_w_node_M_SC" NAME="M_SC" TYPE="MASTER" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="m_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="m_sc_payld"/>
@@ -5487,7 +5487,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="m_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m01_nodes_m01_aw_node_M_AXIS_ARB" NAME="S_AXIS_ARB" TYPE="TARGET" VLNV="xilinx.com:interface:axis:1.0">
+        <BUSINTERFACE BUSNAME="m01_nodes_m01_aw_node_M_AXIS_ARB" NAME="S_AXIS_ARB" TYPE="SLAVE" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="CLK_DOMAIN" VALUE="cl_axi_sc_2x2_aclk_250"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="250000000"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
@@ -5509,7 +5509,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="10" FULLNAME="/m01_sc2axi" HWVERSION="1.0" INSTANCE="m01_sc2axi" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_sc2axi" VLNV="xilinx.com:ip:sc_sc2axi:1.0">
+    <MODULE COREREVISION="11" FULLNAME="/m01_sc2axi" HWVERSION="1.0" INSTANCE="m01_sc2axi" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_sc2axi" VLNV="xilinx.com:ip:sc_sc2axi:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -5903,7 +5903,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_ar_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m01_nodes_m01_aw_node_M_SC" NAME="S_SC_AW" TYPE="TARGET" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="m01_nodes_m01_aw_node_M_SC" NAME="S_SC_AW" TYPE="SLAVE" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="s_sc_aw_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="s_sc_aw_payld"/>
@@ -5912,7 +5912,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_aw_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="m01_nodes_m01_w_node_M_SC" NAME="S_SC_W" TYPE="TARGET" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="m01_nodes_m01_w_node_M_SC" NAME="S_SC_W" TYPE="SLAVE" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="s_sc_w_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="s_sc_w_payld"/>
@@ -5996,7 +5996,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="10" FULLNAME="/s00_axi2sc" HWVERSION="1.0" INSTANCE="s00_axi2sc" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_axi2sc" VLNV="xilinx.com:ip:sc_axi2sc:1.0">
+    <MODULE COREREVISION="11" FULLNAME="/s00_axi2sc" HWVERSION="1.0" INSTANCE="s00_axi2sc" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_axi2sc" VLNV="xilinx.com:ip:sc_axi2sc:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -6483,7 +6483,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/s00_entry_pipeline/s00_mmu" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_mmu" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_mmu" VLNV="xilinx.com:ip:sc_mmu:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/s00_entry_pipeline/s00_mmu" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_mmu" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_mmu" VLNV="xilinx.com:ip:sc_mmu:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -9157,7 +9157,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/s00_entry_pipeline/s00_si_converter" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_si_converter" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_si_converter" VLNV="xilinx.com:ip:sc_si_converter:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/s00_entry_pipeline/s00_si_converter" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_si_converter" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_si_converter" VLNV="xilinx.com:ip:sc_si_converter:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -9188,7 +9188,7 @@
         <PARAMETER NAME="C_SEP_RDATA_WIDTH_ARRAY" VALUE="0x0000020000000200"/>
         <PARAMETER NAME="C_SEP_WDATA_WIDTH_ARRAY" VALUE="0x0000020000000200"/>
         <PARAMETER NAME="C_SINGLE_ISSUING" VALUE="0"/>
-        <PARAMETER NAME="C_SPLIT_WRAP_NARROW" VALUE="0"/>
+        <PARAMETER NAME="C_SPLIT_WRAP_NARROW" VALUE="1"/>
         <PARAMETER NAME="C_SUPPORTS_NARROW" VALUE="0"/>
         <PARAMETER NAME="C_S_RUSER_BITS_PER_BYTE" VALUE="0"/>
         <PARAMETER NAME="C_S_WUSER_BITS_PER_BYTE" VALUE="0"/>
@@ -10499,7 +10499,7 @@
         <PARAMETER NAME="SEP255_RDATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="SEP255_WDATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="SINGLE_ISSUING" VALUE="0"/>
-        <PARAMETER NAME="SPLIT_WRAP_NARROW" VALUE="0"/>
+        <PARAMETER NAME="SPLIT_WRAP_NARROW" VALUE="1"/>
         <PARAMETER NAME="SUPPORTS_NARROW" VALUE="0"/>
         <PARAMETER NAME="S_RUSER_BITS_PER_BYTE" VALUE="0"/>
         <PARAMETER NAME="S_WUSER_BITS_PER_BYTE" VALUE="0"/>
@@ -11062,7 +11062,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="11" FULLNAME="/s00_entry_pipeline/s00_transaction_regulator" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_transaction_regulator" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_transaction_regulator" VLNV="xilinx.com:ip:sc_transaction_regulator:1.0">
+    <MODULE COREREVISION="12" FULLNAME="/s00_entry_pipeline/s00_transaction_regulator" HWVERSION="1.0" INSTANCE="s00_entry_pipeline_s00_transaction_regulator" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_transaction_regulator" VLNV="xilinx.com:ip:sc_transaction_regulator:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -11689,7 +11689,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s00_nodes/s00_ar_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s00_nodes/s00_ar_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -11892,7 +11892,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s00_nodes/s00_aw_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_aw_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s00_nodes/s00_aw_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_aw_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -12095,7 +12095,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s00_nodes/s00_b_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s00_nodes/s00_b_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -12298,7 +12298,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s00_nodes/s00_r_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s00_nodes/s00_r_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -12501,7 +12501,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s00_nodes/s00_w_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_w_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s00_nodes/s00_w_node" HWVERSION="1.0" INSTANCE="s00_nodes_s00_w_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -12704,7 +12704,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="10" FULLNAME="/s01_axi2sc" HWVERSION="1.0" INSTANCE="s01_axi2sc" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_axi2sc" VLNV="xilinx.com:ip:sc_axi2sc:1.0">
+    <MODULE COREREVISION="11" FULLNAME="/s01_axi2sc" HWVERSION="1.0" INSTANCE="s01_axi2sc" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_axi2sc" VLNV="xilinx.com:ip:sc_axi2sc:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -13191,7 +13191,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/s01_entry_pipeline/s01_mmu" HWVERSION="1.0" INSTANCE="s01_entry_pipeline_s01_mmu" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_mmu" VLNV="xilinx.com:ip:sc_mmu:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/s01_entry_pipeline/s01_mmu" HWVERSION="1.0" INSTANCE="s01_entry_pipeline_s01_mmu" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_mmu" VLNV="xilinx.com:ip:sc_mmu:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -15865,7 +15865,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/s01_entry_pipeline/s01_si_converter" HWVERSION="1.0" INSTANCE="s01_entry_pipeline_s01_si_converter" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_si_converter" VLNV="xilinx.com:ip:sc_si_converter:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/s01_entry_pipeline/s01_si_converter" HWVERSION="1.0" INSTANCE="s01_entry_pipeline_s01_si_converter" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_si_converter" VLNV="xilinx.com:ip:sc_si_converter:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -15896,7 +15896,7 @@
         <PARAMETER NAME="C_SEP_RDATA_WIDTH_ARRAY" VALUE="0x0000020000000200"/>
         <PARAMETER NAME="C_SEP_WDATA_WIDTH_ARRAY" VALUE="0x0000020000000200"/>
         <PARAMETER NAME="C_SINGLE_ISSUING" VALUE="0"/>
-        <PARAMETER NAME="C_SPLIT_WRAP_NARROW" VALUE="0"/>
+        <PARAMETER NAME="C_SPLIT_WRAP_NARROW" VALUE="1"/>
         <PARAMETER NAME="C_SUPPORTS_NARROW" VALUE="0"/>
         <PARAMETER NAME="C_S_RUSER_BITS_PER_BYTE" VALUE="0"/>
         <PARAMETER NAME="C_S_WUSER_BITS_PER_BYTE" VALUE="0"/>
@@ -17207,7 +17207,7 @@
         <PARAMETER NAME="SEP255_RDATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="SEP255_WDATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="SINGLE_ISSUING" VALUE="0"/>
-        <PARAMETER NAME="SPLIT_WRAP_NARROW" VALUE="0"/>
+        <PARAMETER NAME="SPLIT_WRAP_NARROW" VALUE="1"/>
         <PARAMETER NAME="SUPPORTS_NARROW" VALUE="0"/>
         <PARAMETER NAME="S_RUSER_BITS_PER_BYTE" VALUE="0"/>
         <PARAMETER NAME="S_WUSER_BITS_PER_BYTE" VALUE="0"/>
@@ -17770,7 +17770,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="11" FULLNAME="/s01_entry_pipeline/s01_transaction_regulator" HWVERSION="1.0" INSTANCE="s01_entry_pipeline_s01_transaction_regulator" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_transaction_regulator" VLNV="xilinx.com:ip:sc_transaction_regulator:1.0">
+    <MODULE COREREVISION="12" FULLNAME="/s01_entry_pipeline/s01_transaction_regulator" HWVERSION="1.0" INSTANCE="s01_entry_pipeline_s01_transaction_regulator" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_transaction_regulator" VLNV="xilinx.com:ip:sc_transaction_regulator:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -18397,7 +18397,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s01_nodes/s01_ar_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s01_nodes/s01_ar_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_ar_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -18600,7 +18600,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s01_nodes/s01_aw_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_aw_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s01_nodes/s01_aw_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_aw_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -18803,7 +18803,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s01_nodes/s01_b_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s01_nodes/s01_b_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_b_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -19006,7 +19006,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s01_nodes/s01_r_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s01_nodes/s01_r_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_r_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -19209,7 +19209,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/s01_nodes/s01_w_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_w_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
+    <MODULE COREREVISION="19" FULLNAME="/s01_nodes/s01_w_node" HWVERSION="1.0" INSTANCE="s01_nodes_s01_w_node" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_node" VLNV="xilinx.com:ip:sc_node:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -19412,7 +19412,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="8" FULLNAME="/switchboards/ar_switchboard" HWVERSION="1.0" INSTANCE="switchboards_ar_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/switchboards/ar_switchboard" HWVERSION="1.0" INSTANCE="switchboards_ar_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -19821,7 +19821,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="8" FULLNAME="/switchboards/aw_switchboard" HWVERSION="1.0" INSTANCE="switchboards_aw_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/switchboards/aw_switchboard" HWVERSION="1.0" INSTANCE="switchboards_aw_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -20200,7 +20200,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="switchboards_aw_switchboard_M00_SC" NAME="M00_SC" TYPE="INITIATOR" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="switchboards_aw_switchboard_M00_SC" NAME="M00_SC" TYPE="MASTER" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="m_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="m_sc_payld"/>
@@ -20219,7 +20219,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="switchboards_aw_switchboard_M01_SC" NAME="M01_SC" TYPE="INITIATOR" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="switchboards_aw_switchboard_M01_SC" NAME="M01_SC" TYPE="MASTER" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="m_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="m_sc_payld"/>
@@ -20230,7 +20230,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="8" FULLNAME="/switchboards/b_switchboard" HWVERSION="1.0" INSTANCE="switchboards_b_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/switchboards/b_switchboard" HWVERSION="1.0" INSTANCE="switchboards_b_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -20639,7 +20639,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="8" FULLNAME="/switchboards/r_switchboard" HWVERSION="1.0" INSTANCE="switchboards_r_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/switchboards/r_switchboard" HWVERSION="1.0" INSTANCE="switchboards_r_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -21048,7 +21048,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="8" FULLNAME="/switchboards/w_switchboard" HWVERSION="1.0" INSTANCE="switchboards_w_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/switchboards/w_switchboard" HWVERSION="1.0" INSTANCE="switchboards_w_switchboard" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="sc_switchboard" VLNV="xilinx.com:ip:sc_switchboard:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
@@ -21427,7 +21427,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="switchboards_w_switchboard_M00_SC" NAME="M00_SC" TYPE="INITIATOR" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="switchboards_w_switchboard_M00_SC" NAME="M00_SC" TYPE="MASTER" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="m_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="m_sc_payld"/>
@@ -21446,7 +21446,7 @@
             <PORTMAP LOGICAL="SEND" PHYSICAL="s_sc_send"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="switchboards_w_switchboard_M01_SC" NAME="M01_SC" TYPE="INITIATOR" VLNV="xilinx.com:interface:sc:1.0">
+        <BUSINTERFACE BUSNAME="switchboards_w_switchboard_M01_SC" NAME="M01_SC" TYPE="MASTER" VLNV="xilinx.com:interface:sc:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="INFO" PHYSICAL="m_sc_info"/>
             <PORTMAP LOGICAL="PAYLD" PHYSICAL="m_sc_payld"/>

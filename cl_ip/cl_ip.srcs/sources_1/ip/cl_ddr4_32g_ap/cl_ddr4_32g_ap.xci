@@ -3,7 +3,7 @@
   "ip_inst": {
     "xci_name": "cl_ddr4_32g_ap",
     "component_reference": "xilinx.com:ip:ddr4:2.2",
-    "ip_revision": "27",
+    "ip_revision": "28",
     "gen_directory": "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g_ap",
     "parameters": {
       "component_parameters": {
@@ -193,7 +193,7 @@
         "C0.DDR4_ODT_WIDTH": [ { "value": "2", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C0.DDR4_MEMORY_TYPE": [ { "value": "RDIMMs", "resolve_type": "generated", "usage": "all" } ],
         "C0.DDR4_MEMORY_PART": [ { "value": "MTA36ASF4G72PZ-2G3", "resolve_type": "generated", "usage": "all" } ],
-        "C0.DDR4_DATA_MASK": [ { "value": "0", "resolve_type": "generated", "usage": "all" } ],
+        "C0.DDR4_DATA_MASK": [ { "value": "18", "resolve_type": "generated", "usage": "all" } ],
         "C0.DDR4_COLUMN_WIDTH": [ { "value": "10", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C0.DDR4_SPEED_GRADE": [ { "value": "083", "resolve_type": "generated", "usage": "all" } ],
         "C0.DDR4_MEM_DENSITY": [ { "value": "32GB", "resolve_type": "generated", "usage": "all" } ],
@@ -288,27 +288,27 @@
         "C0.DDR4_Ecc": [ { "value": "true", "resolve_type": "generated", "format": "bool", "usage": "simulation.tlm" } ]
       },
       "project_parameters": {
-        "ARCHITECTURE": [ { "value": "virtexuplusHBM" } ],
-        "BASE_BOARD_PART": [ { "value": "" } ],
-        "BOARD_CONNECTIONS": [ { "value": "" } ],
-        "DEVICE": [ { "value": "xcvu47p" } ],
-        "NEXTGEN_VERSAL": [ { "value": "0" } ],
-        "PACKAGE": [ { "value": "fsvh2892" } ],
-        "PREFHDL": [ { "value": "VERILOG" } ],
-        "SILICON_REVISION": [ { "value": "" } ],
-        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
-        "SPEEDGRADE": [ { "value": "-2" } ],
-        "STATIC_POWER": [ { "value": "" } ],
-        "TEMPERATURE_GRADE": [ { "value": "E" } ]
+        "ARCHITECTURE": [ { "value": "virtexuplusHBM", "resolve_type": "generated", "usage": "all" } ],
+        "BASE_BOARD_PART": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "BOARD_CONNECTIONS": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "DEVICE": [ { "value": "xcvu47p", "resolve_type": "generated", "usage": "all" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0", "resolve_type": "generated", "usage": "all" } ],
+        "PACKAGE": [ { "value": "fsvh2892", "resolve_type": "generated", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VERILOG", "resolve_type": "generated", "usage": "all" } ],
+        "SILICON_REVISION": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "resolve_type": "generated", "usage": "all" } ],
+        "SPEEDGRADE": [ { "value": "-2", "resolve_type": "generated", "usage": "all" } ],
+        "STATIC_POWER": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
+        "TEMPERATURE_GRADE": [ { "value": "E", "resolve_type": "generated", "usage": "all" } ]
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
-        "IPREVISION": [ { "value": "27" } ],
+        "IPREVISION": [ { "value": "28" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_32g_ap" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2025.1" } ],
+        "SWVERSION": [ { "value": "2025.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },
@@ -697,5 +697,6 @@
         }
       }
     }
-  }
+  },
+  "checksum": "1dea79b6"
 }

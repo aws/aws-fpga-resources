@@ -11,6 +11,6 @@ xpm_cdc.sv,systemverilog,xpm,$XILINX_VIVADO/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,i
 xpm_memory.sv,systemverilog,xpm,$XILINX_VIVADO/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="../../../ipstatic/hdl"incdir="$XILINX_VIVADO/data/rsb/busdef"incdir="../../../ipstatic/hdl"
 xpm_VCOMP.vhd,vhdl,xpm,$XILINX_VIVADO/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../ipstatic/hdl"incdir="$XILINX_VIVADO/data/rsb/busdef"incdir="../../../ipstatic/hdl"
 axi_infrastructure_v1_1_vl_rfs.v,verilog,axi_infrastructure_v1_1_0,../../../ipstatic/hdl/axi_infrastructure_v1_1_vl_rfs.v,incdir="../../../ipstatic/hdl"incdir="$XILINX_VIVADO/data/rsb/busdef"incdir="../../../ipstatic/hdl"
-axi_register_slice_v2_1_vl_rfs.v,verilog,axi_register_slice_v2_1_35,../../../ipstatic/hdl/axi_register_slice_v2_1_vl_rfs.v,incdir="../../../ipstatic/hdl"incdir="$XILINX_VIVADO/data/rsb/busdef"incdir="../../../ipstatic/hdl"
+axi_register_slice_v2_1_vl_rfs.v,verilog,axi_register_slice_v2_1_36,../../../ipstatic/hdl/axi_register_slice_v2_1_vl_rfs.v,incdir="../../../ipstatic/hdl"incdir="$XILINX_VIVADO/data/rsb/busdef"incdir="../../../ipstatic/hdl"
 cl_axi_register_slice_light.v,verilog,xil_defaultlib,../../../../cl_ip.gen/sources_1/ip/cl_axi_register_slice_light/sim/cl_axi_register_slice_light.v,incdir="../../../ipstatic/hdl"incdir="$XILINX_VIVADO/data/rsb/busdef"incdir="../../../ipstatic/hdl"
 glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -8,7 +8,7 @@
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "scoped": "true",
       "synth_flow_mode": "None",
-      "tool_version": "2025.1",
+      "tool_version": "2025.2",
       "validated": "true"
     },
     "design_tree": {
@@ -19,7 +19,13 @@
       "S_BSCAN": {
         "mode": "Slave",
         "vlnv_bus_definition": "xilinx.com:interface:bscan:1.0",
-        "vlnv": "xilinx.com:interface:bscan_rtl:1.0"
+        "vlnv": "xilinx.com:interface:bscan_rtl:1.0",
+        "hdl_attributes": {
+          "LOCKED": {
+            "value": "FALSE",
+            "value_src": "default"
+          }
+        }
       }
     },
     "ports": {
@@ -53,7 +59,7 @@
     "components": {
       "xsdbm": {
         "vlnv": "xilinx.com:ip:xsdbm:3.0",
-        "ip_revision": "4",
+        "ip_revision": "5",
         "xci_name": "bd_a493_xsdbm_0",
         "xci_path": "ip/ip_0/bd_a493_xsdbm_0.xci",
         "inst_hier_path": "xsdbm",

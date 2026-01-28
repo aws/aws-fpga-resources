@@ -1574,18 +1574,18 @@
         "C_PROBE_OUT255_INIT_VAL": [ { "value": "0x0", "resolve_type": "dependent", "format": "bitString", "usage": "all" } ]
       },
       "project_parameters": {
-        "ARCHITECTURE": [ { "value": "virtexuplusHBM" } ],
-        "BASE_BOARD_PART": [ { "value": "" } ],
-        "BOARD_CONNECTIONS": [ { "value": "" } ],
-        "DEVICE": [ { "value": "xcvu47p" } ],
-        "NEXTGEN_VERSAL": [ { "value": "0" } ],
-        "PACKAGE": [ { "value": "fsvh2892" } ],
-        "PREFHDL": [ { "value": "VERILOG" } ],
-        "SILICON_REVISION": [ { "value": "" } ],
-        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
-        "SPEEDGRADE": [ { "value": "-2" } ],
-        "STATIC_POWER": [ { "value": "" } ],
-        "TEMPERATURE_GRADE": [ { "value": "E" } ]
+        "ARCHITECTURE": [ { "value": "virtexuplusHBM", "usage": "all" } ],
+        "BASE_BOARD_PART": [ { "value": "", "usage": "all" } ],
+        "BOARD_CONNECTIONS": [ { "value": "", "usage": "all" } ],
+        "DEVICE": [ { "value": "xcvu47p", "usage": "all" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0", "usage": "all" } ],
+        "PACKAGE": [ { "value": "fsvh2892", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VERILOG", "usage": "all" } ],
+        "SILICON_REVISION": [ { "value": "", "usage": "all" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "usage": "all" } ],
+        "SPEEDGRADE": [ { "value": "-2", "usage": "all" } ],
+        "STATIC_POWER": [ { "value": "", "usage": "all" } ],
+        "TEMPERATURE_GRADE": [ { "value": "E", "usage": "all" } ]
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Flow" } ],
@@ -1594,7 +1594,7 @@
         "OUTPUTDIR": [ { "value": "../../../../cl_ip.gen/sources_1/ip/vio_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "." } ],
-        "SWVERSION": [ { "value": "2025.1" } ],
+        "SWVERSION": [ { "value": "2025.2" } ],
         "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
       }
     },
@@ -1634,5 +1634,6 @@
         }
       }
     }
-  }
+  },
+  "checksum": "ced43266"
 }

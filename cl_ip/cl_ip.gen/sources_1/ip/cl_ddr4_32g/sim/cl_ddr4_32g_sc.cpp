@@ -142,7 +142,7 @@ cl_ddr4_32g_sc::cl_ddr4_32g_sc(const sc_core::sc_module_name& nm) : sc_core::sc_
     model_param_props.addString("C0.DDR4_USE_CS_PORT", "1");
     model_param_props.addString("C0.DDR4_MEMORY_TYPE", "RDIMMs");
     model_param_props.addString("C0.DDR4_MEMORY_PART", "MTA36ASF4G72PZ-2G3");
-    model_param_props.addString("C0.DDR4_DATA_MASK", "0");
+    model_param_props.addString("C0.DDR4_DATA_MASK", "18");
     model_param_props.addString("C0.DDR4_SPEED_GRADE", "083");
     model_param_props.addString("C0.DDR4_MEM_DENSITY", "32GB");
     model_param_props.addString("C0.DDR4_MEM_DENSITY_MB", "8192");

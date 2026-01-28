@@ -47,7 +47,7 @@
 // DO NOT MODIFY THIS FILE.
 
 // IP VLNV: xilinx.com:ip:axi_register_slice:2.1
-// IP Revision: 35
+// IP Revision: 36
 
 // The following must be inserted into your Verilog file for this
 // core to be instantiated. Change the instance name and port connections

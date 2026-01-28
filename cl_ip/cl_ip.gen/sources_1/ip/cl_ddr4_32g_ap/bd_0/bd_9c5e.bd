@@ -8,7 +8,7 @@
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "scoped": "true",
       "synth_flow_mode": "None",
-      "tool_version": "2025.1",
+      "tool_version": "2025.2",
       "validated": "true"
     },
     "design_tree": {
@@ -28,12 +28,24 @@
       "IO": {
         "mode": "Master",
         "vlnv_bus_definition": "xilinx.com:interface:mcsio_bus:1.0",
-        "vlnv": "xilinx.com:interface:mcsio_bus_rtl:1.0"
+        "vlnv": "xilinx.com:interface:mcsio_bus_rtl:1.0",
+        "hdl_attributes": {
+          "LOCKED": {
+            "value": "FALSE",
+            "value_src": "default"
+          }
+        }
       },
       "TRACE": {
         "mode": "Master",
         "vlnv_bus_definition": "xilinx.com:interface:mbtrace:2.0",
-        "vlnv": "xilinx.com:interface:mbtrace_rtl:2.0"
+        "vlnv": "xilinx.com:interface:mbtrace_rtl:2.0",
+        "hdl_attributes": {
+          "LOCKED": {
+            "value": "FALSE",
+            "value_src": "default"
+          }
+        }
       }
     },
     "ports": {
@@ -82,7 +94,7 @@
     "components": {
       "microblaze_I": {
         "vlnv": "xilinx.com:ip:microblaze:11.0",
-        "ip_revision": "15",
+        "ip_revision": "16",
         "xci_name": "bd_9c5e_microblaze_I_0",
         "xci_path": "ip/ip_0/bd_9c5e_microblaze_I_0.xci",
         "inst_hier_path": "microblaze_I",
@@ -203,7 +215,7 @@
       },
       "ilmb": {
         "vlnv": "xilinx.com:ip:lmb_v10:3.0",
-        "ip_revision": "15",
+        "ip_revision": "16",
         "xci_name": "bd_9c5e_ilmb_0",
         "xci_path": "ip/ip_2/bd_9c5e_ilmb_0.xci",
         "inst_hier_path": "ilmb",
@@ -252,7 +264,7 @@
       },
       "dlmb": {
         "vlnv": "xilinx.com:ip:lmb_v10:3.0",
-        "ip_revision": "15",
+        "ip_revision": "16",
         "xci_name": "bd_9c5e_dlmb_0",
         "xci_path": "ip/ip_3/bd_9c5e_dlmb_0.xci",
         "inst_hier_path": "dlmb",
@@ -310,7 +322,7 @@
       },
       "dlmb_cntlr": {
         "vlnv": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-        "ip_revision": "26",
+        "ip_revision": "27",
         "xci_name": "bd_9c5e_dlmb_cntlr_0",
         "xci_path": "ip/ip_4/bd_9c5e_dlmb_cntlr_0.xci",
         "inst_hier_path": "dlmb_cntlr",
@@ -349,7 +361,7 @@
       },
       "ilmb_cntlr": {
         "vlnv": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-        "ip_revision": "26",
+        "ip_revision": "27",
         "xci_name": "bd_9c5e_ilmb_cntlr_0",
         "xci_path": "ip/ip_5/bd_9c5e_ilmb_cntlr_0.xci",
         "inst_hier_path": "ilmb_cntlr",
@@ -378,7 +390,7 @@
       },
       "lmb_bram_I": {
         "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
-        "ip_revision": "11",
+        "ip_revision": "12",
         "xci_name": "bd_9c5e_lmb_bram_I_0",
         "xci_path": "ip/ip_6/bd_9c5e_lmb_bram_I_0.xci",
         "inst_hier_path": "lmb_bram_I",
@@ -391,7 +403,7 @@
       },
       "second_dlmb_cntlr": {
         "vlnv": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-        "ip_revision": "26",
+        "ip_revision": "27",
         "xci_name": "bd_9c5e_second_dlmb_cntlr_0",
         "xci_path": "ip/ip_7/bd_9c5e_second_dlmb_cntlr_0.xci",
         "inst_hier_path": "second_dlmb_cntlr",
@@ -426,7 +438,7 @@
       },
       "second_ilmb_cntlr": {
         "vlnv": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-        "ip_revision": "26",
+        "ip_revision": "27",
         "xci_name": "bd_9c5e_second_ilmb_cntlr_0",
         "xci_path": "ip/ip_8/bd_9c5e_second_ilmb_cntlr_0.xci",
         "inst_hier_path": "second_ilmb_cntlr",
@@ -455,7 +467,7 @@
       },
       "second_lmb_bram_I": {
         "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
-        "ip_revision": "11",
+        "ip_revision": "12",
         "xci_name": "bd_9c5e_second_lmb_bram_I_0",
         "xci_path": "ip/ip_9/bd_9c5e_second_lmb_bram_I_0.xci",
         "inst_hier_path": "second_lmb_bram_I",
@@ -468,7 +480,7 @@
       },
       "iomodule_0": {
         "vlnv": "xilinx.com:ip:iomodule:3.1",
-        "ip_revision": "12",
+        "ip_revision": "13",
         "xci_name": "bd_9c5e_iomodule_0_0",
         "xci_path": "ip/ip_10/bd_9c5e_iomodule_0_0.xci",
         "inst_hier_path": "iomodule_0",
