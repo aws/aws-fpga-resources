@@ -1,10 +1,10 @@
-sv xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl" --include "../../../ipstatic/verif/model" \
-"../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl/hbm_v1_0_17.sv" \
+sv xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl" --include "../../../ipstatic/verif/model" \
+"../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl/hbm_v1_0_18.sv" \
 
-sv hbm_v1_0_17 -i "$XILINX_VIVADO/data/rsb/busdef" --include "../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl" --include "../../../ipstatic/verif/model" \
+sv hbm_v1_0_18 -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl" --include "../../../ipstatic/verif/model" \
 "../../../ipstatic/hdl/hbm_v1_0_vl_rfs.sv" \
 
-sv xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl" --include "../../../ipstatic/verif/model" \
+sv xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_hbm/hdl/rtl" --include "../../../ipstatic/verif/model" \
 "../../../../cl_ip.gen/sources_1/ip/cl_hbm/verif/model/hbm_model.sv" \
 "../../../../cl_ip.gen/sources_1/ip/cl_hbm/sim/cl_hbm.sv" \
 

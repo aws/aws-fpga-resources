@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 -- IP VLNV: xilinx.com:ip:axi_crossbar:2.1
--- IP Revision: 37
+-- IP Revision: 38
 
 -- The following code must appear in the VHDL architecture header.
 

@@ -1,4 +1,4 @@
-verilog xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" --include "../../../ipstatic/hdl/verilog" \
+verilog xil_defaultlib -i "$XILINX_VIVADO/data/rsb/busdef" --include "$XILINX_VIVADO/data/xilinx_vip/include" --include "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog" --include "../../../ipstatic/hdl/verilog" \
 "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_0/sim/bd_a493_xsdbm_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/ip/ip_1/sim/bd_a493_lut_buffer_0.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_debug_bridge/bd_0/sim/bd_a493.v" \

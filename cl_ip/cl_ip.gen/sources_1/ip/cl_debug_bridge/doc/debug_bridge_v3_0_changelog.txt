@@ -1,3 +1,12 @@
+2025.2:
+ * Version 3.0 (Rev. 15)
+ * General: Migrating to inline hdl IPs.
+ * Revision change in one or more subcores
+
+2025.1.1:
+ * Version 3.0 (Rev. 14)
+ * No changes
+
 2025.1:
  * Version 3.0 (Rev. 14)
  * General: Updated IP Catalog taxonomy structure. This change has no impact to the IP.

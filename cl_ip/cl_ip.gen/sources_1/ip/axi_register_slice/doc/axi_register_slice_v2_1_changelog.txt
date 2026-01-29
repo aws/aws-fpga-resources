@@ -1,3 +1,11 @@
+2025.2:
+ * Version 2.1 (Rev. 36)
+ * General: Updated clock domain constraints
+
+2025.1.1:
+ * Version 2.1 (Rev. 35)
+ * No changes
+
 2025.1:
  * Version 2.1 (Rev. 35)
  * General: Updated IP Catalog taxonomy structure. This change has no impact to the IP.

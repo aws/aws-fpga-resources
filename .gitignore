@@ -7,3 +7,5 @@ cl_ip/ip_upgrade.log
 **/vivado*.jou
 **/vivado*.log
 **/slurm-*.out
+*.sveo
+*.protoinst

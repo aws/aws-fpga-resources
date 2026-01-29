@@ -6,25 +6,25 @@ transcript on
 vlib work
 vlib riviera/xilinx_vip
 vlib riviera/xpm
-vlib riviera/microblaze_v11_0_15
+vlib riviera/microblaze_v11_0_16
 vlib riviera/xil_defaultlib
 vlib riviera/proc_sys_reset_v5_0_17
-vlib riviera/lmb_v10_v3_0_15
-vlib riviera/lmb_bram_if_cntlr_v4_0_26
-vlib riviera/blk_mem_gen_v8_4_11
-vlib riviera/iomodule_v3_1_12
+vlib riviera/lmb_v10_v3_0_16
+vlib riviera/lmb_bram_if_cntlr_v4_0_27
+vlib riviera/blk_mem_gen_v8_4_12
+vlib riviera/iomodule_v3_1_13
 
 vmap xilinx_vip riviera/xilinx_vip
 vmap xpm riviera/xpm
-vmap microblaze_v11_0_15 riviera/microblaze_v11_0_15
+vmap microblaze_v11_0_16 riviera/microblaze_v11_0_16
 vmap xil_defaultlib riviera/xil_defaultlib
 vmap proc_sys_reset_v5_0_17 riviera/proc_sys_reset_v5_0_17
-vmap lmb_v10_v3_0_15 riviera/lmb_v10_v3_0_15
-vmap lmb_bram_if_cntlr_v4_0_26 riviera/lmb_bram_if_cntlr_v4_0_26
-vmap blk_mem_gen_v8_4_11 riviera/blk_mem_gen_v8_4_11
-vmap iomodule_v3_1_12 riviera/iomodule_v3_1_12
+vmap lmb_v10_v3_0_16 riviera/lmb_v10_v3_0_16
+vmap lmb_bram_if_cntlr_v4_0_27 riviera/lmb_bram_if_cntlr_v4_0_27
+vmap blk_mem_gen_v8_4_12 riviera/blk_mem_gen_v8_4_12
+vmap iomodule_v3_1_13 riviera/iomodule_v3_1_13
 
-vlog -work xilinx_vip  -incr -l hbm_v1_0_17 "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_15 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_15 -l lmb_bram_if_cntlr_v4_0_26 -l blk_mem_gen_v8_4_11 -l iomodule_v3_1_12 \
+vlog -work xilinx_vip  -incr -l smartconnect_v1_0 -l axi_vip_v1_1_22 -l hbm_v1_0_18 "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_16 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_16 -l lmb_bram_if_cntlr_v4_0_27 -l blk_mem_gen_v8_4_12 -l iomodule_v3_1_13 \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/xil_common_vip_pkg.sv" \
@@ -35,14 +35,14 @@ vlog -work xilinx_vip  -incr -l hbm_v1_0_17 "+incdir+$XILINX_VIVADO/data/xilinx_
 "$XILINX_VIVADO/data/xilinx_vip/hdl/clk_vip_if.sv" \
 "$XILINX_VIVADO/data/xilinx_vip/hdl/rst_vip_if.sv" \
 
-vlog -work xpm  -incr -l hbm_v1_0_17 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_15 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_15 -l lmb_bram_if_cntlr_v4_0_26 -l blk_mem_gen_v8_4_11 -l iomodule_v3_1_12 \
+vlog -work xpm  -incr -l smartconnect_v1_0 -l axi_vip_v1_1_22 -l hbm_v1_0_18 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_16 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_16 -l lmb_bram_if_cntlr_v4_0_27 -l blk_mem_gen_v8_4_12 -l iomodule_v3_1_13 \
 "$XILINX_VIVADO/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
 "$XILINX_VIVADO/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 
 vcom -work xpm -93  -incr \
 "$XILINX_VIVADO/data/ip/xpm/xpm_VCOMP.vhd" \
 
-vcom -work microblaze_v11_0_15 -93  -incr \
+vcom -work microblaze_v11_0_16 -93  -incr \
 "../../../ipstatic/hdl/microblaze_v11_0_vh_rfs.vhd" \
 
 vcom -work xil_defaultlib -93  -incr \
@@ -54,44 +54,44 @@ vcom -work proc_sys_reset_v5_0_17 -93  -incr \
 vcom -work xil_defaultlib -93  -incr \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_1/sim/bd_c5ad_rst_0_0.vhd" \
 
-vcom -work lmb_v10_v3_0_15 -93  -incr \
+vcom -work lmb_v10_v3_0_16 -93  -incr \
 "../../../ipstatic/hdl/lmb_v10_v3_0_vh_rfs.vhd" \
 
 vcom -work xil_defaultlib -93  -incr \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_2/sim/bd_c5ad_ilmb_0.vhd" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_3/sim/bd_c5ad_dlmb_0.vhd" \
 
-vcom -work lmb_bram_if_cntlr_v4_0_26 -93  -incr \
+vcom -work lmb_bram_if_cntlr_v4_0_27 -93  -incr \
 "../../../ipstatic/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd" \
 
 vcom -work xil_defaultlib -93  -incr \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_4/sim/bd_c5ad_dlmb_cntlr_0.vhd" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_5/sim/bd_c5ad_ilmb_cntlr_0.vhd" \
 
-vlog -work blk_mem_gen_v8_4_11  -incr -v2k5 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_15 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_15 -l lmb_bram_if_cntlr_v4_0_26 -l blk_mem_gen_v8_4_11 -l iomodule_v3_1_12 \
+vlog -work blk_mem_gen_v8_4_12  -incr -v2k5 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_16 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_16 -l lmb_bram_if_cntlr_v4_0_27 -l blk_mem_gen_v8_4_12 -l iomodule_v3_1_13 \
 "../../../ipstatic/simulation/blk_mem_gen_v8_4.v" \
 
-vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_15 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_15 -l lmb_bram_if_cntlr_v4_0_26 -l blk_mem_gen_v8_4_11 -l iomodule_v3_1_12 \
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_16 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_16 -l lmb_bram_if_cntlr_v4_0_27 -l blk_mem_gen_v8_4_12 -l iomodule_v3_1_13 \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_6/sim/bd_c5ad_lmb_bram_I_0.v" \
 
 vcom -work xil_defaultlib -93  -incr \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_7/sim/bd_c5ad_second_dlmb_cntlr_0.vhd" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_8/sim/bd_c5ad_second_ilmb_cntlr_0.vhd" \
 
-vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_15 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_15 -l lmb_bram_if_cntlr_v4_0_26 -l blk_mem_gen_v8_4_11 -l iomodule_v3_1_12 \
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_16 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_16 -l lmb_bram_if_cntlr_v4_0_27 -l blk_mem_gen_v8_4_12 -l iomodule_v3_1_13 \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_9/sim/bd_c5ad_second_lmb_bram_I_0.v" \
 
-vcom -work iomodule_v3_1_12 -93  -incr \
+vcom -work iomodule_v3_1_13 -93  -incr \
 "../../../ipstatic/hdl/iomodule_v3_1_vh_rfs.vhd" \
 
 vcom -work xil_defaultlib -93  -incr \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/ip/ip_10/sim/bd_c5ad_iomodule_0_0.vhd" \
 
-vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_15 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_15 -l lmb_bram_if_cntlr_v4_0_26 -l blk_mem_gen_v8_4_11 -l iomodule_v3_1_12 \
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_16 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_16 -l lmb_bram_if_cntlr_v4_0_27 -l blk_mem_gen_v8_4_12 -l iomodule_v3_1_13 \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/bd_0/sim/bd_c5ad.v" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_0/sim/cl_ddr4_64g_ap_microblaze_mcs.v" \
 
-vlog -work xil_defaultlib  -incr -l hbm_v1_0_17 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_15 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_15 -l lmb_bram_if_cntlr_v4_0_26 -l blk_mem_gen_v8_4_11 -l iomodule_v3_1_12 \
+vlog -work xil_defaultlib  -incr -l smartconnect_v1_0 -l axi_vip_v1_1_22 -l hbm_v1_0_18 "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/map" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/ip_top" "+incdir+../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/rtl/cal" "+incdir+$XILINX_VIVADO/data/rsb/busdef" "+incdir+$XILINX_VIVADO/data/xilinx_vip/include" -l xilinx_vip -l xpm -l microblaze_v11_0_16 -l xil_defaultlib -l proc_sys_reset_v5_0_17 -l lmb_v10_v3_0_16 -l lmb_bram_if_cntlr_v4_0_27 -l blk_mem_gen_v8_4_12 -l iomodule_v3_1_13 \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/phy/cl_ddr4_64g_ap_phy_ddr4.sv" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy_behav.sv" \
 "../../../../cl_ip.gen/sources_1/ip/cl_ddr4_64g_ap/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy.sv" \
@@ -190,3 +190,4 @@ vlog -work xil_defaultlib  -incr -l hbm_v1_0_17 "+incdir+../../../../cl_ip.gen/s
 
 vlog -work xil_defaultlib \
 "glbl.v"
+

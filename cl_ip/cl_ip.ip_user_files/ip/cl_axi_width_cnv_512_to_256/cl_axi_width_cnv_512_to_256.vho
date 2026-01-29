@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 -- IP VLNV: xilinx.com:ip:axi_dwidth_converter:2.1
--- IP Revision: 36
+-- IP Revision: 37
 
 -- The following code must appear in the VHDL architecture header.
 

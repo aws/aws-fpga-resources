@@ -2,10 +2,11 @@
 <Root MajorVersion="0" MinorVersion="43">
   <CompositeFile CompositeFileTopName="cl_axi_sc_2x2" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1755277055"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1755277055"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1755277055"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1755277055"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1765226306"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1765226306"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1765226306"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1765226306"/>
+    <Generation Name="INSTANTIATION_TEMPLATE" State="GENERATED" Timestamp="1765226306"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="synth/cl_axi_sc_2x2.v" Type="Verilog">
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
@@ -50,6 +51,21 @@
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SIMULATION"/>
+        <ProcessingOrder Val="NORMAL"/>
+      </File>
+      <File Name="cl_axi_sc_2x2.vho" Type="VhdlTemplate">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <ProcessingOrder Val="NORMAL"/>
+      </File>
+      <File Name="cl_axi_sc_2x2.veo" Type="VTemplate">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <ProcessingOrder Val="NORMAL"/>
+      </File>
+      <File Name="cl_axi_sc_2x2_sv.sveo" Type="SystemVerilogTemplate">
+        <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
         <ProcessingOrder Val="NORMAL"/>
       </File>
     </FileCollection>
