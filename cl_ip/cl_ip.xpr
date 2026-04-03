@@ -65,12 +65,12 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="482"/>
-    <Option Name="WTModelSimExportSim" Val="482"/>
-    <Option Name="WTQuestaExportSim" Val="482"/>
+    <Option Name="WTXSimExportSim" Val="486"/>
+    <Option Name="WTModelSimExportSim" Val="486"/>
+    <Option Name="WTQuestaExportSim" Val="486"/>
     <Option Name="WTIesExportSim" Val="0"/>
-    <Option Name="WTVcsExportSim" Val="482"/>
-    <Option Name="WTRivieraExportSim" Val="482"/>
+    <Option Name="WTVcsExportSim" Val="486"/>
+    <Option Name="WTRivieraExportSim" Val="486"/>
     <Option Name="WTActivehdlExportSim" Val="289"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
@@ -436,6 +436,26 @@
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PGENDIR/sources_1/bd/cl_axi_sc_2x2/hdl/cl_axi_sc_2x2_wrapper.v"/>
           <Attr Name="ImportTime" Val="1721317469"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/ila_axil/ila_axil.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/ip/ila_axil/ila_axil.xci"/>
+          <Attr Name="ImportTime" Val="1773676438"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/ila_axi4/ila_axi4.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/ip/ila_axi4/ila_axi4.xci"/>
+          <Attr Name="ImportTime" Val="1774903786"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
