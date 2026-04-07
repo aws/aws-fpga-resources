@@ -227,7 +227,7 @@ create_lib_mappings()
   touch $file
 
   if [[ ($lib_map_path == "") ]]; then
-    lib_map_path="$AWS_FPGA_REPO_DIR/hdk/common/ip/verif/ip_simulation_libraries/vcs_complib"
+    lib_map_path="$AWS_FPGA_REPO_DIR/hdk/common/verif/ip_simulation_libraries/vcs_complib"
   fi
 
   echo "LIBRARY_SCAN=TRUE" >> $file
